@@ -1,0 +1,798 @@
+# English (United States) translations for .
+# Copyright (C) 2010 ORGANIZATION
+# This file is distributed under the same license as the  project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:  iRedAdmin\n"
+"Report-Msgid-Bugs-To: zhb@iredmail.org\n"
+"POT-Creation-Date: 2023-06-16 23:51+0800\n"
+"PO-Revision-Date: 2011-06-10 23:46+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_US\n"
+"Language-Team: en_US <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#, python-format
+msgid "%s days, %s hours, %s minutes."
+msgstr ""
+
+#, python-format
+msgid "(%d messages, %s.)"
+msgstr ""
+
+#, python-format
+msgid "(%d%% full, %d messages, %s.)"
+msgstr ""
+
+msgid "(Mailbox is empty.)"
+msgstr ""
+
+msgid "Account already exists, please choose another one."
+msgstr ""
+
+msgid "Account does not exist."
+msgstr ""
+
+msgid "Account is disabled."
+msgstr ""
+
+msgid "Account is global admin"
+msgstr ""
+
+msgid "Activate account"
+msgstr ""
+
+msgid "Activities"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Add account"
+msgstr ""
+
+msgid "Add admin"
+msgstr ""
+
+msgid "Add domain"
+msgstr ""
+
+msgid "Add mail user"
+msgstr ""
+
+msgid "Add mail user under domain"
+msgstr ""
+
+msgid "Add one"
+msgstr ""
+
+msgid "Add one more?"
+msgstr ""
+
+msgid "Admin"
+msgstr ""
+
+msgid "Admin Log"
+msgstr ""
+
+msgid "Admin created."
+msgstr ""
+
+msgid "Admin login"
+msgstr ""
+
+msgid "Admins"
+msgstr ""
+
+#, python-format
+msgid "Admins under domain: %s"
+msgstr ""
+
+msgid "Alias domains:"
+msgstr ""
+
+msgid "All admins"
+msgstr ""
+
+msgid "All domains"
+msgstr ""
+
+msgid ""
+"All domains managed by this admin share the mailbox quota and limit of "
+"mail accounts."
+msgstr ""
+
+msgid "All domains under your control."
+msgstr ""
+
+msgid "Allocated"
+msgstr ""
+
+msgid "Already reaches account limit (mail aliases)."
+msgstr ""
+
+msgid "Already reaches account limit (mail domains)."
+msgstr ""
+
+msgid "Already reaches account limit (mail users)."
+msgstr ""
+
+msgid "Already reaches account limit (mailbox quota)."
+msgstr ""
+
+msgid "Already reaches account limit (mailing lists)."
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+#, python-format
+msgid "At least %d characters."
+msgstr ""
+
+#, python-format
+msgid "At least %s characters."
+msgstr ""
+
+msgid "At least one digit number"
+msgstr ""
+
+msgid "At least one letter"
+msgstr ""
+
+msgid "At least one special character:"
+msgstr ""
+
+msgid "At least one uppercase letter"
+msgstr ""
+
+msgid "Available quota:"
+msgstr ""
+
+msgid "Backup"
+msgstr ""
+
+msgid "Backup MX"
+msgstr ""
+
+msgid "Choose Action"
+msgstr ""
+
+msgid "Company/Organization Name"
+msgstr ""
+
+msgid "Confirm new password"
+msgstr ""
+
+msgid "Contact webmaster"
+msgstr ""
+
+msgid "Content of disclaimer will be appended to outgoing emails."
+msgstr ""
+
+msgid "Current password is incorrect."
+msgstr ""
+
+msgid "DISABLED"
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete account"
+msgstr ""
+
+msgid "Delete all in database"
+msgstr ""
+
+msgid "Delete mailboxes"
+msgstr ""
+
+msgid "Delete selected log"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Disable account"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Disabled accounts"
+msgstr ""
+
+msgid "Disabled domains"
+msgstr ""
+
+msgid "Disclaimer"
+msgstr ""
+
+msgid "Display Name"
+msgstr ""
+
+msgid "Domain"
+msgstr ""
+
+msgid "Domain Admins"
+msgstr ""
+
+msgid "Domain Name"
+msgstr ""
+
+msgid "Domain already exists. Please check both primary or alias domains."
+msgstr ""
+
+msgid "Domain created."
+msgstr ""
+
+msgid "Domain is active, but marked as backup MX."
+msgstr ""
+
+msgid "Domain is active, but relay to other host"
+msgstr ""
+
+msgid "Domain is disabled."
+msgstr ""
+
+msgid "Domain name is empty."
+msgstr ""
+
+msgid "Domain name or username is missed."
+msgstr ""
+
+msgid ""
+"Domain quota size exceeded. Please contact your administrator or service "
+"provider to increase it."
+msgstr ""
+
+msgid "Domains"
+msgstr ""
+
+msgid "Domains and Accounts"
+msgstr ""
+
+msgid "Dump disclaimer automatically"
+msgstr ""
+
+msgid "Edit account profile"
+msgstr ""
+
+msgid "Edit domain profile"
+msgstr ""
+
+msgid "Edit quota setting"
+msgstr ""
+
+msgid "Email address was changed."
+msgstr ""
+
+msgid "Emails"
+msgstr ""
+
+msgid "Empty password is not allowed."
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Enable this account"
+msgstr ""
+
+msgid "Enable this domain"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Error while checking new version of iRedAdmin:"
+msgstr ""
+
+msgid "Error:"
+msgstr ""
+
+msgid "Events"
+msgstr ""
+
+msgid "Everyone can send mail to this address"
+msgstr ""
+
+msgid ""
+"Exceeded domain account limit. Please contact your administrator or "
+"service provider to increase it."
+msgstr ""
+
+msgid "Filter accounts by first character in email addresses"
+msgstr ""
+
+msgid "Filter domains by first character in mail domain name"
+msgstr ""
+
+msgid "Filter:"
+msgstr ""
+
+msgid "First Page"
+msgstr ""
+
+msgid "First name"
+msgstr ""
+
+msgid "Full name"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Global Admin"
+msgstr ""
+
+msgid "Grant admin"
+msgstr ""
+
+msgid "Hostname"
+msgstr ""
+
+msgid "IMAP Login:"
+msgstr ""
+
+msgid "IP Address"
+msgstr ""
+
+msgid "Invalid account."
+msgstr ""
+
+msgid "Invalid action."
+msgstr ""
+
+msgid "Invalid domain name."
+msgstr ""
+
+msgid "Invalid mail address."
+msgstr ""
+
+msgid "Is a global admin."
+msgstr ""
+
+msgid "Job Title"
+msgstr ""
+
+#, python-format
+msgid "Keep mailbox for %d days"
+msgstr ""
+
+#, python-format
+msgid "Keep mailbox for %d months"
+msgstr ""
+
+#, python-format
+msgid "Keep mailbox for %d weeks"
+msgstr ""
+
+#, python-format
+msgid "Keep mailbox for %d years"
+msgstr ""
+
+msgid "Keep mailbox for 1 day"
+msgstr ""
+
+msgid "Keep mailbox for 1 month "
+msgstr ""
+
+msgid "Keep mailbox for 1 week"
+msgstr ""
+
+msgid "Keep mailbox for 1 year"
+msgstr ""
+
+msgid "Keep mailbox forever"
+msgstr ""
+
+msgid "Last Page"
+msgstr ""
+
+msgid "Last name"
+msgstr ""
+
+msgid "List all mail users."
+msgstr ""
+
+#, python-format
+msgid "Logged in as %s"
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "Login from your IP address is not allowed."
+msgstr ""
+
+msgid "Login required"
+msgstr ""
+
+msgid "Login to manage your mail domains & accounts"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Mail Address"
+msgstr ""
+
+msgid "Mail Users"
+msgstr ""
+
+msgid "Mailbox Quota"
+msgstr ""
+
+msgid "Make sure disclaimer work as expected:"
+msgstr ""
+
+msgid "Mark as global admin"
+msgstr ""
+
+msgid "Mark this user as global admin"
+msgstr ""
+
+msgid "Member of mailing lists:"
+msgstr ""
+
+msgid "Members"
+msgstr ""
+
+msgid "Members and moderators"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Mobile"
+msgstr ""
+
+msgid "Moderators"
+msgstr ""
+
+#, python-format
+msgid "Must be %s - %s characters."
+msgstr ""
+
+msgid "Need a strong password?"
+msgstr ""
+
+msgid "Network"
+msgstr ""
+
+msgid "New Mail Delivered:"
+msgstr ""
+
+msgid "New password"
+msgstr ""
+
+#, python-format
+msgid "New password must NOT contain more than %s characters."
+msgstr ""
+
+#, python-format
+msgid "New password must contain at least %s characters."
+msgstr ""
+
+msgid "New passwords are not match."
+msgstr ""
+
+#, python-format
+msgid ""
+"New version of iRedAdmin, %s, is now available for upgrading. <a "
+"href='https://docs.iredmail.org/migrate.or.upgrade.iredadmin.html' "
+"class='button green'>Upgrade tutorial</a>."
+msgstr ""
+
+msgid "Next Page"
+msgstr ""
+
+msgid "No account selected."
+msgstr ""
+
+msgid "No admin log."
+msgstr ""
+
+msgid "No digit number in password."
+msgstr ""
+
+msgid "No domain under control."
+msgstr ""
+
+msgid "No letter in password."
+msgstr ""
+
+msgid "No mail admin assigned."
+msgstr ""
+
+msgid "No mail domain available."
+msgstr ""
+
+msgid "No mail user available."
+msgstr ""
+
+#, python-format
+msgid "No more than %d characters."
+msgstr ""
+
+#, python-format
+msgid "No more than %s characters."
+msgstr ""
+
+msgid "No special character in password."
+msgstr ""
+
+msgid "No uppercase letter in password."
+msgstr ""
+
+msgid "Not a global admin."
+msgstr ""
+
+msgid "Not allowed to create mail user under this domain."
+msgstr ""
+
+msgid "Note: Global admin can manage all mail domains."
+msgstr ""
+
+msgid "Number of domains"
+msgstr ""
+
+msgid "Number of users"
+msgstr ""
+
+msgid "Old password"
+msgstr ""
+
+msgid ""
+"One IP address or network per line. Invalid address or network will be "
+"discarded."
+msgstr ""
+
+msgid "One mail address per line. Invalid address will be discarded."
+msgstr ""
+
+msgid "Or create other mail accounts:"
+msgstr ""
+
+msgid "POP3 Login:"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Password is empty."
+msgstr ""
+
+msgid "Password is too long."
+msgstr ""
+
+msgid "Password is too short."
+msgstr ""
+
+msgid "Password last change:"
+msgstr ""
+
+msgid "Password must contain"
+msgstr ""
+
+msgid "Permission denied."
+msgstr ""
+
+msgid "Plain text only"
+msgstr ""
+
+msgid "Please do not use non-ascii character in password."
+msgstr ""
+
+msgid "Please select at least one account."
+msgstr ""
+
+msgid "Please select at least one domain."
+msgstr ""
+
+msgid "Preferences"
+msgstr ""
+
+msgid "Preferred language"
+msgstr ""
+
+msgid "Previous Page"
+msgstr ""
+
+msgid "Profile has been updated."
+msgstr ""
+
+msgid "Profile of admin:"
+msgstr ""
+
+msgid "Profile of domain:"
+msgstr ""
+
+msgid "Profile of user:"
+msgstr ""
+
+msgid "Profile updated failed."
+msgstr ""
+
+msgid "Quota"
+msgstr ""
+
+msgid "Records were successfully updated."
+msgstr ""
+
+msgid "Relay"
+msgstr ""
+
+msgid "Revoke admin privilege"
+msgstr ""
+
+msgid "Save changes"
+msgstr ""
+
+msgid ""
+"Security token did not match. Please refresh current page and re-perform "
+"form action."
+msgstr ""
+
+msgid "Selected accounts were deleted."
+msgstr ""
+
+msgid "Selected accounts were disabled."
+msgstr ""
+
+msgid "Selected accounts were enabled."
+msgstr ""
+
+msgid "Selected accounts were marked as domain admin."
+msgstr ""
+
+msgid "Selected accounts were marked as global admin."
+msgstr ""
+
+msgid "Selected accounts were unmarked as domain admin."
+msgstr ""
+
+msgid "Selected accounts were unmarked as global admin."
+msgstr ""
+
+msgid "Selected domains have been deleted."
+msgstr ""
+
+msgid "Selected domains were disabled."
+msgstr ""
+
+msgid "Selected domains were enabled."
+msgstr ""
+
+msgid "Selected log records were deleted."
+msgstr ""
+
+msgid "Server Load"
+msgstr ""
+
+msgid ""
+"Server-side size limit exceeded. Please increase \"sizelimit\" in your "
+"LDAP server."
+msgstr ""
+
+msgid "Session expired, please re-login."
+msgstr ""
+
+msgid "Set to 0 for unlimited."
+msgstr ""
+
+#, python-format
+msgid "Some addresses have been discarded because they have been used: %s."
+msgstr ""
+
+msgid "Standalone admin account cannot be an user of local domain."
+msgstr ""
+
+msgid "Store password in plain text"
+msgstr ""
+
+msgid "Stored"
+msgstr ""
+
+msgid "Stored emails"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Submited domain name is incorrect."
+msgstr ""
+
+msgid "Support"
+msgstr ""
+
+msgid "System Information"
+msgstr ""
+
+msgid "Telephone Number"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "Time zone"
+msgstr ""
+
+msgid "Unban IP address"
+msgstr ""
+
+msgid "Unlimited"
+msgstr ""
+
+msgid "Unmark as global admin"
+msgstr ""
+
+msgid "Unrestricted"
+msgstr ""
+
+msgid "Update whitelists and blacklists"
+msgstr ""
+
+msgid "Uptime"
+msgstr ""
+
+msgid "Use this password"
+msgstr ""
+
+msgid "Used"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "User created."
+msgstr ""
+
+msgid "User login (self-service)"
+msgstr ""
+
+msgid "User/Employee ID"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Username must be an valid email address."
+msgstr ""
+
+msgid "Username or password is incorrect."
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+#, python-format
+msgid "Users under domain: %s"
+msgstr ""
+
+msgid "Users under same domain"
+msgstr ""
+
+msgid "Users under same domain and its sub-domains"
+msgstr ""
+
+msgid "Who can send email to this list"
+msgstr ""
+
+msgid "You are not allowed to update global domain admin's profile."
+msgstr ""
+
+msgid "without verifying local recipients"
+msgstr ""
+

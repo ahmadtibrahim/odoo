@@ -1,0 +1,810 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:  iRedAdmin-Pro\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-06-16 23:51+0800\n"
+"PO-Revision-Date: 2022-11-20 15:27+0000\n"
+"Last-Translator: Anders Johansson <johansson@aljmedia.se>\n"
+"Language: sv_SE\n"
+"Language-Team: Anders Johansson johansson@aljmedia.se\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#, python-format
+msgid "%s days, %s hours, %s minutes."
+msgstr "%s dagar, %s timmar, %s minuter."
+
+#, python-format
+msgid "(%d messages, %s.)"
+msgstr "(%d meddelanden, %s.)"
+
+#, python-format
+msgid "(%d%% full, %d messages, %s.)"
+msgstr "(%d%% full, %d meddelanden, %s.)"
+
+msgid "(Mailbox is empty.)"
+msgstr "(Brevlådan är tom.)"
+
+msgid "Account already exists, please choose another one."
+msgstr "Kontot finns redan, välj ett annat."
+
+msgid "Account does not exist."
+msgstr "Kontot finns inte."
+
+msgid "Account is disabled."
+msgstr "Kontot är avaktiverat."
+
+msgid "Account is global admin"
+msgstr "Kontot är global admin"
+
+msgid "Activate account"
+msgstr "Aktivera konto"
+
+msgid "Activities"
+msgstr "Aktiviteter"
+
+msgid "Add"
+msgstr "Lägg till"
+
+msgid "Add account"
+msgstr "Lägg till konto"
+
+msgid "Add admin"
+msgstr "Lägg till admin"
+
+msgid "Add domain"
+msgstr "Lägg till domän"
+
+msgid "Add mail user"
+msgstr "Lägg till e-postanvändare"
+
+msgid "Add mail user under domain"
+msgstr "Lägg till e-postanvändare under domän"
+
+msgid "Add one"
+msgstr "Lägg till en"
+
+msgid "Add one more?"
+msgstr "Lägg till en till?"
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "Admin Log"
+msgstr "Admin-logg"
+
+msgid "Admin created."
+msgstr "Admin skapad."
+
+msgid "Admin login"
+msgstr "Admin logga in"
+
+msgid "Admins"
+msgstr "Admins"
+
+#, python-format
+msgid "Admins under domain: %s"
+msgstr "Admins under domän: %s"
+
+msgid "Alias domains:"
+msgstr "Alias-domäner:"
+
+msgid "All admins"
+msgstr "Alla administratörer"
+
+msgid "All domains"
+msgstr "Alla domäner"
+
+msgid ""
+"All domains managed by this admin share the mailbox quota and limit of "
+"mail accounts."
+msgstr ""
+"Alla domäner som hanteras av den här administratören delar "
+"e-postkontokvoten och gränsen för e-postkonton."
+
+msgid "All domains under your control."
+msgstr "Alla domäner under din kontroll."
+
+msgid "Allocated"
+msgstr "Tilldelad"
+
+msgid "Already reaches account limit (mail aliases)."
+msgstr "Uppnår redan kontogränsen (e-postalias)."
+
+msgid "Already reaches account limit (mail domains)."
+msgstr "Uppnår redan kontogräns (e-postdomäner)."
+
+msgid "Already reaches account limit (mail users)."
+msgstr "Har redan nått gränsen för kontot (e-postanvändare)."
+
+msgid "Already reaches account limit (mailbox quota)."
+msgstr "Har redan nått gränsen för kontot (kvot för brevlåda)."
+
+msgid "Already reaches account limit (mailing lists)."
+msgstr "Uppnår redan kontogränsen (e-postlistor)."
+
+msgid "Apply"
+msgstr "Tillämpa"
+
+#, python-format
+msgid "At least %d characters."
+msgstr "Minst %d tecken."
+
+#, python-format
+msgid "At least %s characters."
+msgstr "Minst %s tecken."
+
+msgid "At least one digit number"
+msgstr "Minst ett siffror"
+
+msgid "At least one letter"
+msgstr "Minst en bokstav"
+
+msgid "At least one special character:"
+msgstr "Minst en speciell karaktär:"
+
+msgid "At least one uppercase letter"
+msgstr "Minst en stor bokstav"
+
+msgid "Available quota:"
+msgstr "Tillgänglig kvot:"
+
+msgid "Backup"
+msgstr "Säkerhetskopiering"
+
+msgid "Backup MX"
+msgstr "Säkerhetskopiera MX"
+
+msgid "Choose Action"
+msgstr "Välj åtgärd"
+
+msgid "Company/Organization Name"
+msgstr "Företags / organisations namn"
+
+msgid "Confirm new password"
+msgstr "Bekräfta nytt lösenord"
+
+msgid "Contact webmaster"
+msgstr "Kontakta webbansvarig"
+
+msgid "Content of disclaimer will be appended to outgoing emails."
+msgstr "Ansvarsfriskrivningens innehåll läggs till utgående e-post."
+
+msgid "Current password is incorrect."
+msgstr "Nuvarande lösenord är felaktigt."
+
+msgid "DISABLED"
+msgstr "INAKTIVERAD"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Delete"
+msgstr "Ta bort"
+
+msgid "Delete account"
+msgstr "Ta bort konto"
+
+msgid "Delete all in database"
+msgstr "Ta bort allt i databasen"
+
+msgid "Delete mailboxes"
+msgstr "Ta bort brevlådor"
+
+msgid "Delete selected log"
+msgstr "Radera vald logg"
+
+msgid "Disable"
+msgstr "Inaktivera"
+
+msgid "Disable account"
+msgstr "Inaktivera konto"
+
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+msgid "Disabled accounts"
+msgstr "Inaktiverade konton"
+
+msgid "Disabled domains"
+msgstr "Inaktiverade domäner"
+
+msgid "Disclaimer"
+msgstr "Ansvarsfriskrivning"
+
+msgid "Display Name"
+msgstr "Visningsnamn"
+
+msgid "Domain"
+msgstr "Domän"
+
+msgid "Domain Admins"
+msgstr "Domänadministratörer"
+
+msgid "Domain Name"
+msgstr "Domän namn"
+
+msgid "Domain already exists. Please check both primary or alias domains."
+msgstr "Domän finns redan. Kontrollera både primära domäner eller aliasdomäner."
+
+msgid "Domain created."
+msgstr "Domän skapad."
+
+msgid "Domain is active, but marked as backup MX."
+msgstr "Domänen är aktiv men markerad som backup MX."
+
+msgid "Domain is active, but relay to other host"
+msgstr "Domänen är aktiv, men vidarebefordrar till annan värd"
+
+msgid "Domain is disabled."
+msgstr "Domänen är inaktiverad."
+
+msgid "Domain name is empty."
+msgstr "Domännamnet är tomt."
+
+msgid "Domain name or username is missed."
+msgstr "Domännamn eller användarnamn saknas."
+
+msgid ""
+"Domain quota size exceeded. Please contact your administrator or service "
+"provider to increase it."
+msgstr ""
+"Domänkvotstorleken har överskridits. Kontakta din administratör eller "
+"tjänsteleverantör för att öka den."
+
+msgid "Domains"
+msgstr "Domäner"
+
+msgid "Domains and Accounts"
+msgstr "Domäner och konton"
+
+msgid "Dump disclaimer automatically"
+msgstr "Dumpa ansvarsfriskrivning automatiskt"
+
+msgid "Edit account profile"
+msgstr "Redigera konto profil"
+
+msgid "Edit domain profile"
+msgstr "Redigera domänprofil"
+
+msgid "Edit quota setting"
+msgstr "Redigera kvotinställningen"
+
+msgid "Email address was changed."
+msgstr "E-postadressen ändrades."
+
+msgid "Emails"
+msgstr "E-postmeddelanden"
+
+msgid "Empty password is not allowed."
+msgstr "Tomt lösenord är inte tillåtet."
+
+msgid "Enable"
+msgstr "Aktivera"
+
+msgid "Enable this account"
+msgstr "Aktivera det här kontot"
+
+msgid "Enable this domain"
+msgstr "Aktivera den här domänen"
+
+msgid "Error"
+msgstr "Fel"
+
+
+msgid "Error while checking new version of iRedAdmin:"
+msgstr "Fel vid kontroll av ny version av iRedAdmin-Pro:"
+
+msgid "Error:"
+msgstr "Fel:"
+
+msgid "Events"
+msgstr "Evenemang"
+
+msgid "Everyone can send mail to this address"
+msgstr "Alla kan skicka e-post till den här adressen"
+
+msgid ""
+"Exceeded domain account limit. Please contact your administrator or "
+"service provider to increase it."
+msgstr ""
+"Gränsen för domänkontot överskred. Kontakta din administratör eller "
+"tjänsteleverantör för att öka den."
+
+msgid "Filter accounts by first character in email addresses"
+msgstr "Filtrera konton efter första tecken i e-postadresser"
+
+msgid "Filter domains by first character in mail domain name"
+msgstr "Filtrera domäner efter första tecken i e-postdomännamnet"
+
+msgid "Filter:"
+msgstr "Filter:"
+
+msgid "First Page"
+msgstr "Första sidan"
+
+msgid "First name"
+msgstr "Förnamn"
+
+msgid "Full name"
+msgstr "Fullständigt namn"
+
+msgid "General"
+msgstr "Allmän"
+
+msgid "Global Admin"
+msgstr "Global Admin"
+
+msgid "Grant admin"
+msgstr "Bevilja admin"
+
+msgid "Hostname"
+msgstr "Värdnamn"
+
+msgid "IMAP Login:"
+msgstr "IMAP inloggning:"
+
+msgid "IP Address"
+msgstr "IP-adress"
+
+msgid "Invalid account."
+msgstr "Ogiltigt konto."
+
+msgid "Invalid action."
+msgstr "Ogiltig åtgärd."
+
+msgid "Invalid domain name."
+msgstr "Ogiltigt domännamn."
+
+msgid "Invalid mail address."
+msgstr "Ogiltig e-postadress."
+
+msgid "Is a global admin."
+msgstr "Är en global admin."
+
+msgid "Job Title"
+msgstr "Jobbtitel"
+
+#, python-format
+msgid "Keep mailbox for %d days"
+msgstr "Spara brevlådan i %d dagar"
+
+#, python-format
+msgid "Keep mailbox for %d months"
+msgstr "Spara brevlådan i %d månader"
+
+#, python-format
+msgid "Keep mailbox for %d weeks"
+msgstr "Spara brevlådan i %d veckor"
+
+#, python-format
+msgid "Keep mailbox for %d years"
+msgstr "Spara brevlådan i %d år"
+
+msgid "Keep mailbox for 1 day"
+msgstr "Spara brevlådan i en dag"
+
+msgid "Keep mailbox for 1 month "
+msgstr "Spara brevlådan i en månad "
+
+msgid "Keep mailbox for 1 week"
+msgstr "Spara brevlådan i en vecka"
+
+msgid "Keep mailbox for 1 year"
+msgstr "Förvara brevlådan i 1 år"
+
+msgid "Keep mailbox forever"
+msgstr "Behåll brevlådan för alltid"
+
+msgid "Last Page"
+msgstr "Sista sidan"
+
+msgid "Last name"
+msgstr "Efternamn"
+
+msgid "List all mail users."
+msgstr "Lista alla e-postanvändare."
+
+#, python-format
+msgid "Logged in as %s"
+msgstr "Inloggad som %s"
+
+msgid "Login"
+msgstr "Logga in"
+
+msgid "Login from your IP address is not allowed."
+msgstr "Inloggning från din IP-adress är inte tillåten."
+
+msgid "Login required"
+msgstr "Inloggning krävs"
+
+msgid "Login to manage your mail domains & accounts"
+msgstr "Logga in för att hantera dina e-postdomäner och konton"
+
+msgid "Logout"
+msgstr "Logga ut"
+
+msgid "Mail Address"
+msgstr "Mailadress"
+
+msgid "Mail Users"
+msgstr "Mailanvändare"
+
+msgid "Mailbox Quota"
+msgstr "Brevlåda kvot"
+
+msgid "Make sure disclaimer work as expected:"
+msgstr "Se till att ansvarsfriskrivningen fungerar som förväntat:"
+
+msgid "Mark as global admin"
+msgstr "Markera som global admin"
+
+
+msgid "Mark this user as global admin"
+msgstr "Avmarkera som global admin"
+
+msgid "Member of mailing lists:"
+msgstr "Medlem av e-postlistor:"
+
+msgid "Members"
+msgstr "Medlemmar"
+
+msgid "Members and moderators"
+msgstr "Medlemmar och moderatorer"
+
+msgid "Message"
+msgstr "Meddelande"
+
+msgid "Mobile"
+msgstr "Mobil"
+
+msgid "Moderators"
+msgstr "Moderatorer"
+
+#, python-format
+msgid "Must be %s - %s characters."
+msgstr "Måste vara %s - %s tecken."
+
+msgid "Need a strong password?"
+msgstr "Behöver du ett starkt lösenord?"
+
+msgid "Network"
+msgstr "Nätverk"
+
+msgid "New Mail Delivered:"
+msgstr "Ny post levererad:"
+
+msgid "New password"
+msgstr "Nytt lösenord"
+
+#, python-format
+msgid "New password must NOT contain more than %s characters."
+msgstr "Nytt lösenord får INTE innehålla mer än %s tecken."
+
+#, python-format
+msgid "New password must contain at least %s characters."
+msgstr "Det nya lösenordet måste innehålla minst %s tecken."
+
+msgid "New passwords are not match."
+msgstr "Nya lösenord matchar inte."
+
+#, python-format
+msgid ""
+"New version of iRedAdmin, %s, is now available for upgrading. <a "
+"href='https://docs.iredmail.org/migrate.or.upgrade.iredadmin.html' "
+"class='button green'>Upgrade tutorial</a>."
+msgstr ""
+"Ny version av iRedAdmin-Pro,% s, är nu tillgänglig för uppgradering. <a "
+"href=’%s/system/license’ class=’button green’> Detaljer </a>"
+
+msgid "Next Page"
+msgstr "Nästa sida"
+
+msgid "No account selected."
+msgstr "Inget konto valt."
+
+msgid "No admin log."
+msgstr "Ingen administratörslogg."
+
+msgid "No digit number in password."
+msgstr "Inga siffror i lösenordet."
+
+msgid "No domain under control."
+msgstr "Ingen domän under kontroll."
+
+msgid "No letter in password."
+msgstr "Ingen bokstav i lösenordet."
+
+msgid "No mail admin assigned."
+msgstr "Ingen e-postadministratör tilldelad."
+
+msgid "No mail domain available."
+msgstr "Ingen e-postdomän tillgänglig."
+
+msgid "No mail user available."
+msgstr "Ingen e-postanvändare tillgänglig."
+
+#, python-format
+msgid "No more than %d characters."
+msgstr "Högst %d tecken."
+
+#, python-format
+msgid "No more than %s characters."
+msgstr "Högst %s tecken."
+
+msgid "No special character in password."
+msgstr "Inget specialtecken i lösenordet."
+
+msgid "No uppercase letter in password."
+msgstr "Ingen stor bokstav i lösenordet."
+
+msgid "Not a global admin."
+msgstr "Inte en global admin."
+
+msgid "Not allowed to create mail user under this domain."
+msgstr "Inte tillåtet att skapa e-postanvändare under denna domän."
+
+msgid "Note: Global admin can manage all mail domains."
+msgstr "Obs! Global admin kan hantera alla e-postdomäner."
+
+msgid "Number of domains"
+msgstr "Antal domäner"
+
+msgid "Number of users"
+msgstr "Antal användare"
+
+msgid "Old password"
+msgstr "Gammalt lösenord"
+
+msgid ""
+"One IP address or network per line. Invalid address or network will be "
+"discarded."
+msgstr ""
+"En IP-adress eller ett nätverk per rad. Ogiltig adress eller nätverk "
+"kommer att kasseras."
+
+msgid "One mail address per line. Invalid address will be discarded."
+msgstr "En e-postadress per rad. Ogiltig adress kommer att kasseras."
+
+msgid "Or create other mail accounts:"
+msgstr "Eller skapa andra e-postkonton:"
+
+msgid "POP3 Login:"
+msgstr "POP3-inloggning:"
+
+msgid "Password"
+msgstr "Lösenord"
+
+msgid "Password is empty."
+msgstr "Lösenordet är tomt."
+
+msgid "Password is too long."
+msgstr "Lösenordet är för långt."
+
+msgid "Password is too short."
+msgstr "Lösenordet är för kort."
+
+msgid "Password last change:"
+msgstr "Lösenordets senaste ändring:"
+
+msgid "Password must contain"
+msgstr "Lösenordet måste innehålla"
+
+msgid "Permission denied."
+msgstr "Åtkomst nekad."
+
+msgid "Plain text only"
+msgstr "Endast vanlig text"
+
+msgid "Please do not use non-ascii character in password."
+msgstr "Använd inte non-ascii tecken utan lösenord."
+
+msgid "Please select at least one account."
+msgstr "Välj minst ett konto."
+
+msgid "Please select at least one domain."
+msgstr "Välj minst en domän."
+
+msgid "Preferences"
+msgstr "Inställningar"
+
+msgid "Preferred language"
+msgstr "Önskat språk"
+
+msgid "Previous Page"
+msgstr "Föregående sida"
+
+msgid "Profile has been updated."
+msgstr "Profilen har uppdaterats."
+
+msgid "Profile of admin:"
+msgstr "Profil för admin:"
+
+msgid "Profile of domain:"
+msgstr "Profil för domän:"
+
+msgid "Profile of user:"
+msgstr "Användarens profil:"
+
+msgid "Profile updated failed."
+msgstr "Profiluppdateringen misslyckades."
+
+msgid "Quota"
+msgstr "Kvot"
+
+msgid "Records were successfully updated."
+msgstr "Post har uppdaterats."
+
+msgid "Relay"
+msgstr "Vidarebefordra"
+
+msgid "Revoke admin privilege"
+msgstr "Återkalla administratörsbehörighet"
+
+msgid "Save changes"
+msgstr "Spara ändringar"
+
+msgid ""
+"Security token did not match. Please refresh current page and re-perform "
+"form action."
+msgstr ""
+"Säkerhetstoken matchade inte. Uppdatera den aktuella sidan och utför "
+"formuläråtgärden igen."
+
+msgid "Selected accounts were deleted."
+msgstr "Valda konton raderades."
+
+msgid "Selected accounts were disabled."
+msgstr "Valda konton har inaktiverats."
+
+msgid "Selected accounts were enabled."
+msgstr "Valda konton aktiverades."
+
+msgid "Selected accounts were marked as domain admin."
+msgstr "Valda konton aktiverades."
+
+msgid "Selected accounts were marked as global admin."
+msgstr "Valda konton markerades som global administratör."
+
+msgid "Selected accounts were unmarked as domain admin."
+msgstr "Valda konton avmarkerades som domänadministratör."
+
+msgid "Selected accounts were unmarked as global admin."
+msgstr "Valda konton avmarkerades som global administratör."
+
+msgid "Selected domains have been deleted."
+msgstr "Valda domäner har tagits bort."
+
+msgid "Selected domains were disabled."
+msgstr "Valda domäner inaktiverades."
+
+msgid "Selected domains were enabled."
+msgstr "Valda domäner aktiverades."
+
+msgid "Selected log records were deleted."
+msgstr "Valda loggposter togs bort."
+
+msgid "Server Load"
+msgstr "Serverbelastning"
+
+msgid ""
+"Server-side size limit exceeded. Please increase \"sizelimit\" in your "
+"LDAP server."
+msgstr ""
+"Storleksgränsen för serversidan har överskridits. Vänligen öka "
+"”sizelimit” på din LDAP-server."
+
+msgid "Session expired, please re-login."
+msgstr "Sessionen har upphört, logga in igen."
+
+msgid "Set to 0 for unlimited."
+msgstr "Ställ in på 0 för obegränsat."
+
+#, python-format
+msgid "Some addresses have been discarded because they have been used: %s."
+msgstr "Vissa adresser har kasserats eftersom de har använts: %s."
+
+msgid "Standalone admin account cannot be an user of local domain."
+msgstr "Fristående administratörskonto kan inte vara en användare av lokal domän."
+
+msgid "Store password in plain text"
+msgstr "Lagra lösenord i vanlig text"
+
+msgid "Stored"
+msgstr "Lagrat"
+
+msgid "Stored emails"
+msgstr "Lagrade e-postmeddelanden"
+
+msgid "Submit"
+msgstr "Skicka"
+
+msgid "Submited domain name is incorrect."
+msgstr "Det angivna domännamnet är felaktigt."
+
+msgid "Support"
+msgstr "Support"
+
+msgid "System Information"
+msgstr "Systeminformation"
+
+msgid "Telephone Number"
+msgstr "Telefonnummer"
+
+msgid "Time"
+msgstr "Tid"
+
+msgid "Time zone"
+msgstr "Tidzon"
+
+msgid "Unban IP address"
+msgstr "Unban IP-adress"
+
+msgid "Unlimited"
+msgstr "Obegränsat"
+
+msgid "Unmark as global admin"
+msgstr "Avmarkera som global admin"
+
+msgid "Unrestricted"
+msgstr "Obegränsad"
+
+msgid "Update whitelists and blacklists"
+msgstr "Uppdatera vitlistor och svartlistor"
+
+msgid "Uptime"
+msgstr "Upptid"
+
+msgid "Use this password"
+msgstr "Använd detta lösenord"
+
+msgid "Used"
+msgstr "Använd"
+
+msgid "User"
+msgstr "Användare"
+
+msgid "User created."
+msgstr "Användare skapad."
+
+msgid "User login (self-service)"
+msgstr "Användarinloggning (självbetjäning)"
+
+msgid "User/Employee ID"
+msgstr "Användar-/anställd-ID"
+
+msgid "Username"
+msgstr "Användarnamn"
+
+msgid "Username must be an valid email address."
+msgstr "Användarnamnet måste vara en giltig e-postadress."
+
+msgid "Username or password is incorrect."
+msgstr "Användarnamn eller lösenord är felaktigt."
+
+msgid "Users"
+msgstr "Användare"
+
+#, python-format
+msgid "Users under domain: %s"
+msgstr "Användare under domän: %s"
+
+msgid "Users under same domain"
+msgstr "Användare under samma domän"
+
+msgid "Users under same domain and its sub-domains"
+msgstr "Användare under samma domän och dess underdomäner"
+
+msgid "Who can send email to this list"
+msgstr "Vem kan skicka e-post till den här listan"
+
+msgid "You are not allowed to update global domain admin's profile."
+msgstr "Du får inte uppdatera den globala domänadministratörens profil."
+
+msgid "without verifying local recipients"
+msgstr "utan att verifiera lokala mottagare"
+

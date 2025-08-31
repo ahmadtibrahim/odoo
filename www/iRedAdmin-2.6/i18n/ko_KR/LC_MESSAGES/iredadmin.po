@@ -1,0 +1,797 @@
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: zhb@iredmail.org\n"
+"POT-Creation-Date: 2023-06-16 23:51+0800\n"
+"PO-Revision-Date: 2013-04-22 11:12+0800\n"
+"Last-Translator: GotoCloud <gotocloud@gotocloud.co.kr>\n"
+"Language: ko_KR\n"
+"Language-Team: Ko-KR <gotocloud@gotocloud.co.kr>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#, python-format
+msgid "%s days, %s hours, %s minutes."
+msgstr "%s 일, %s 시, %s 분"
+
+#, python-format
+msgid "(%d messages, %s.)"
+msgstr ""
+
+#, python-format
+msgid "(%d%% full, %d messages, %s.)"
+msgstr ""
+
+msgid "(Mailbox is empty.)"
+msgstr ""
+
+msgid "Account already exists, please choose another one."
+msgstr "계정이 이미 존재합니다. 다른 사용자 계정을 입력하세요."
+
+msgid "Account does not exist."
+msgstr "계정이 존재하지 않습니다."
+
+msgid "Account is disabled."
+msgstr "계정을 사용할 수 없습니다."
+
+msgid "Account is global admin"
+msgstr "최상위 관리자 계정입니다."
+
+msgid "Activate account"
+msgstr "계정 활성화"
+
+msgid "Activities"
+msgstr ""
+
+msgid "Add"
+msgstr "추가"
+
+msgid "Add account"
+msgstr "계정 추가"
+
+msgid "Add admin"
+msgstr "관리자 추가"
+
+msgid "Add domain"
+msgstr "도메인 추가"
+
+msgid "Add mail user"
+msgstr "메일 리스트 추가"
+
+msgid "Add mail user under domain"
+msgstr "%s 도메인 사용자 추가"
+
+msgid "Add one"
+msgstr "추가하시겠습니까?"
+
+msgid "Add one more?"
+msgstr "계속 추가 하시겠습니까?"
+
+msgid "Admin"
+msgstr "관리자"
+
+msgid "Admin Log"
+msgstr "관리 로그"
+
+msgid "Admin created."
+msgstr "관리자가 생성되었습니다."
+
+msgid "Admin login"
+msgstr "관리자가 로그인하였습니다."
+
+msgid "Admins"
+msgstr "관리자"
+
+#, python-format
+msgid "Admins under domain: %s"
+msgstr "%s 도메인 관리자"
+
+msgid "Alias domains:"
+msgstr ""
+
+msgid "All admins"
+msgstr "모든 관리자"
+
+msgid "All domains"
+msgstr "모든 도메인"
+
+msgid ""
+"All domains managed by this admin share the mailbox quota and limit of "
+"mail accounts."
+msgstr ""
+
+msgid "All domains under your control."
+msgstr "관리 가능한 모든 도메인"
+
+msgid "Allocated"
+msgstr "할당됨"
+
+msgid "Already reaches account limit (mail aliases)."
+msgstr ""
+
+msgid "Already reaches account limit (mail domains)."
+msgstr ""
+
+msgid "Already reaches account limit (mail users)."
+msgstr ""
+
+msgid "Already reaches account limit (mailbox quota)."
+msgstr ""
+
+msgid "Already reaches account limit (mailing lists)."
+msgstr ""
+
+msgid "Apply"
+msgstr "적용"
+
+#, python-format
+msgid "At least %d characters."
+msgstr ""
+
+#, python-format
+msgid "At least %s characters."
+msgstr "최소 %s 자"
+
+msgid "At least one digit number"
+msgstr ""
+
+msgid "At least one letter"
+msgstr ""
+
+msgid "At least one special character:"
+msgstr ""
+
+msgid "At least one uppercase letter"
+msgstr ""
+
+msgid "Available quota:"
+msgstr "사용 가능 용량"
+
+msgid "Backup"
+msgstr ""
+
+msgid "Backup MX"
+msgstr ""
+
+msgid "Choose Action"
+msgstr "할일을 선택하세요."
+
+msgid "Company/Organization Name"
+msgstr "회사/조직 이름"
+
+msgid "Confirm new password"
+msgstr "신규 암호 확인"
+
+msgid "Contact webmaster"
+msgstr "웹마스트 연락처"
+
+msgid "Content of disclaimer will be appended to outgoing emails."
+msgstr ""
+
+msgid "Current password is incorrect."
+msgstr "암호가 일치하지 않습니다."
+
+msgid "DISABLED"
+msgstr "비활성화됨"
+
+msgid "Dashboard"
+msgstr "대시보드"
+
+msgid "Delete"
+msgstr "삭제"
+
+msgid "Delete account"
+msgstr "계정 삭제"
+
+msgid "Delete all in database"
+msgstr "데이터베이스에서 모두 삭제"
+
+msgid "Delete mailboxes"
+msgstr ""
+
+msgid "Delete selected log"
+msgstr ""
+
+msgid "Disable"
+msgstr "비활성화"
+
+msgid "Disable account"
+msgstr "계정 비활성화"
+
+msgid "Disabled"
+msgstr "비활성화됨"
+
+msgid "Disabled accounts"
+msgstr "계정 비활성화"
+
+msgid "Disabled domains"
+msgstr "도메인 프로필 수정"
+
+msgid "Disclaimer"
+msgstr ""
+
+msgid "Display Name"
+msgstr "표시 이름"
+
+msgid "Domain"
+msgstr "도메인"
+
+msgid "Domain Admins"
+msgstr "도메인 관리자"
+
+msgid "Domain Name"
+msgstr "도메인 이름"
+
+msgid "Domain already exists. Please check both primary or alias domains."
+msgstr "도메인이 존재합니다. 주도메인 또는 도메인 별칭을 체크하세요."
+
+msgid "Domain created."
+msgstr "도메인이 생성되었습니다."
+
+msgid "Domain is active, but marked as backup MX."
+msgstr ""
+
+msgid "Domain is active, but relay to other host"
+msgstr ""
+
+msgid "Domain is disabled."
+msgstr ""
+
+msgid "Domain name is empty."
+msgstr "도메인 이름이 비어 있습니다."
+
+msgid "Domain name or username is missed."
+msgstr "도메인 이름 또는 사용자 이름이 비어 있습니다."
+
+msgid ""
+"Domain quota size exceeded. Please contact your administrator or service "
+"provider to increase it."
+msgstr "도메인 용량을 초과했습니다. 관리자에게 연락하여 용량을 확장하십시오."
+
+msgid "Domains"
+msgstr "도메인"
+
+msgid "Domains and Accounts"
+msgstr "도메인 및 계정"
+
+msgid "Dump disclaimer automatically"
+msgstr ""
+
+msgid "Edit account profile"
+msgstr "계정 프로필 수정"
+
+msgid "Edit domain profile"
+msgstr "도메인 프로필 수정"
+
+msgid "Edit quota setting"
+msgstr "메일 용량 설정"
+
+msgid "Email address was changed."
+msgstr "한줄 당 하나의 메일 주소"
+
+msgid "Emails"
+msgstr "이메일"
+
+msgid "Empty password is not allowed."
+msgstr "암호는 공란으로 둘 수 없습니다."
+
+msgid "Enable"
+msgstr "활성화"
+
+msgid "Enable this account"
+msgstr "계정 활성화"
+
+msgid "Enable this domain"
+msgstr "도메인 활성화"
+
+msgid "Error"
+msgstr ""
+
+msgid "Error while checking new version of iRedAdmin:"
+msgstr ""
+
+msgid "Error:"
+msgstr "에러"
+
+msgid "Events"
+msgstr "이벤트"
+
+msgid "Everyone can send mail to this address"
+msgstr "모든 사람이 이 주소로 메일을 보낼 수 있습니다."
+
+msgid ""
+"Exceeded domain account limit. Please contact your administrator or "
+"service provider to increase it."
+msgstr "도메인 계정 한도를 초과했습니다. 관리자에게 연락하여 한도를 증가시키세요."
+
+msgid "Filter accounts by first character in email addresses"
+msgstr ""
+
+msgid "Filter domains by first character in mail domain name"
+msgstr ""
+
+msgid "Filter:"
+msgstr "필터"
+
+msgid "First Page"
+msgstr "첫 페이지"
+
+msgid "First name"
+msgstr "이름"
+
+msgid "Full name"
+msgstr "이름"
+
+msgid "General"
+msgstr "일반"
+
+msgid "Global Admin"
+msgstr "최상위 관리자"
+
+msgid "Grant admin"
+msgstr "도메인 관리자"
+
+msgid "Hostname"
+msgstr "호스트네임"
+
+msgid "IMAP Login:"
+msgstr ""
+
+msgid "IP Address"
+msgstr "IP 주소"
+
+msgid "Invalid account."
+msgstr "잘못 선택했습니다."
+
+msgid "Invalid action."
+msgstr "잘못 선택했습니다."
+
+msgid "Invalid domain name."
+msgstr "도메인 이름이 잘못되었습니다."
+
+msgid "Invalid mail address."
+msgstr "메일 주소가 잘못되었습니다."
+
+msgid "Is a global admin."
+msgstr "최상위 관리자 입니다."
+
+msgid "Job Title"
+msgstr "직위"
+
+#, python-format
+msgid "Keep mailbox for %d days"
+msgstr ""
+
+#, python-format
+msgid "Keep mailbox for %d months"
+msgstr ""
+
+#, python-format
+msgid "Keep mailbox for %d weeks"
+msgstr ""
+
+#, python-format
+msgid "Keep mailbox for %d years"
+msgstr ""
+
+msgid "Keep mailbox for 1 day"
+msgstr ""
+
+msgid "Keep mailbox for 1 month "
+msgstr ""
+
+msgid "Keep mailbox for 1 week"
+msgstr ""
+
+msgid "Keep mailbox for 1 year"
+msgstr ""
+
+msgid "Keep mailbox forever"
+msgstr ""
+
+msgid "Last Page"
+msgstr "마지막 페이지"
+
+msgid "Last name"
+msgstr "성"
+
+msgid "List all mail users."
+msgstr "모든 메일 사용자 표시"
+
+#, python-format
+msgid "Logged in as %s"
+msgstr "%s로 로그인했습니다."
+
+msgid "Login"
+msgstr "로그인"
+
+msgid "Login from your IP address is not allowed."
+msgstr ""
+
+msgid "Login required"
+msgstr "로그인이 필요합니다."
+
+msgid "Login to manage your mail domains & accounts"
+msgstr "메일 계정과 도메인 관리를 위해 로그인하세요"
+
+msgid "Logout"
+msgstr "로그아웃"
+
+msgid "Mail Address"
+msgstr "메일 주소"
+
+msgid "Mail Users"
+msgstr "메일 사용자"
+
+msgid "Mailbox Quota"
+msgstr "메일 박스 용량"
+
+msgid "Make sure disclaimer work as expected:"
+msgstr ""
+
+msgid "Mark as global admin"
+msgstr "최상위 관리자로 지정"
+
+msgid "Mark this user as global admin"
+msgstr ""
+
+msgid "Member of mailing lists:"
+msgstr ""
+
+msgid "Members"
+msgstr "구성원"
+
+msgid "Members and moderators"
+msgstr ""
+
+msgid "Message"
+msgstr "메시지"
+
+msgid "Mobile"
+msgstr "모바일"
+
+msgid "Moderators"
+msgstr "승인자"
+
+#, python-format
+msgid "Must be %s - %s characters."
+msgstr ""
+
+msgid "Need a strong password?"
+msgstr ""
+
+msgid "Network"
+msgstr "네트워크"
+
+msgid "New Mail Delivered:"
+msgstr ""
+
+msgid "New password"
+msgstr "신규 암호"
+
+#, python-format
+msgid "New password must NOT contain more than %s characters."
+msgstr "신규 암호는 최대 %s 자 이하로 제한됩니다."
+
+#, python-format
+msgid "New password must contain at least %s characters."
+msgstr "신규 암호는 최소 %s 이상이어야 합니다."
+
+msgid "New passwords are not match."
+msgstr "암호가 일치하지 않습니다."
+
+#, python-format
+msgid ""
+"New version of iRedAdmin, %s, is now available for upgrading. <a "
+"href='https://docs.iredmail.org/migrate.or.upgrade.iredadmin.html' "
+"class='button green'>Upgrade tutorial</a>."
+msgstr ""
+
+msgid "Next Page"
+msgstr "다음 페이지"
+
+msgid "No account selected."
+msgstr "계정이 선택되지 않았습니다."
+
+msgid "No admin log."
+msgstr "관리 로그가 없습니다."
+
+msgid "No digit number in password."
+msgstr ""
+
+msgid "No domain under control."
+msgstr "관리 가능한 도메인이 없습니다."
+
+msgid "No letter in password."
+msgstr ""
+
+msgid "No mail admin assigned."
+msgstr ""
+
+msgid "No mail domain available."
+msgstr "메일 도메인을 사용할 수 없습니다."
+
+msgid "No mail user available."
+msgstr "메일 사용자를 사용할 수 없습니다."
+
+#, python-format
+msgid "No more than %d characters."
+msgstr ""
+
+#, python-format
+msgid "No more than %s characters."
+msgstr "%s 자 이상은 허용되지 않습니다."
+
+msgid "No special character in password."
+msgstr ""
+
+msgid "No uppercase letter in password."
+msgstr ""
+
+msgid "Not a global admin."
+msgstr "최상위 관리자가 아닙니다."
+
+msgid "Not allowed to create mail user under this domain."
+msgstr "이 도메인에는 메일 사용자 생성이 허용되지 않습니다."
+
+msgid "Note: Global admin can manage all mail domains."
+msgstr ""
+
+msgid "Number of domains"
+msgstr "도메인 수"
+
+msgid "Number of users"
+msgstr "사용자 수"
+
+msgid "Old password"
+msgstr "이전 암호"
+
+msgid ""
+"One IP address or network per line. Invalid address or network will be "
+"discarded."
+msgstr ""
+
+msgid "One mail address per line. Invalid address will be discarded."
+msgstr ""
+
+msgid "Or create other mail accounts:"
+msgstr "다른 메일 주소를 생성하십시오."
+
+msgid "POP3 Login:"
+msgstr ""
+
+msgid "Password"
+msgstr "암호변경"
+
+msgid "Password is empty."
+msgstr "암호가 비어 있습니다."
+
+msgid "Password is too long."
+msgstr "암호가 너무 깁니다."
+
+msgid "Password is too short."
+msgstr "암호가 너무 짧습니다."
+
+msgid "Password last change:"
+msgstr ""
+
+msgid "Password must contain"
+msgstr "신규 암호는 최소 %s 이상이어야 합니다."
+
+msgid "Permission denied."
+msgstr "권한이 없습니다."
+
+msgid "Plain text only"
+msgstr ""
+
+msgid "Please do not use non-ascii character in password."
+msgstr ""
+
+msgid "Please select at least one account."
+msgstr "최소 하나 이상의 계정을 선택하십시오."
+
+msgid "Please select at least one domain."
+msgstr "최소 하나 이상의 계정을 선택하십시오."
+
+msgid "Preferences"
+msgstr "환경설정"
+
+msgid "Preferred language"
+msgstr "언어 선택"
+
+msgid "Previous Page"
+msgstr "이전 페이지"
+
+msgid "Profile has been updated."
+msgstr ""
+
+msgid "Profile of admin:"
+msgstr "관리자 프로필"
+
+msgid "Profile of domain:"
+msgstr "도메인 프로필"
+
+msgid "Profile of user:"
+msgstr "사용자 프로필"
+
+msgid "Profile updated failed."
+msgstr "프로필 갱신 실패"
+
+msgid "Quota"
+msgstr "용량"
+
+msgid "Records were successfully updated."
+msgstr ""
+
+msgid "Relay"
+msgstr "전달"
+
+msgid "Revoke admin privilege"
+msgstr "관리자 프로필"
+
+msgid "Save changes"
+msgstr "변경 사항 저장"
+
+msgid ""
+"Security token did not match. Please refresh current page and re-perform "
+"form action."
+msgstr "보안 토큰이 일치하지 않습니다. 현재 페이지를 갱신하고 다시 입력하십시오."
+
+msgid "Selected accounts were deleted."
+msgstr "선택된 계정이 삭제되었습니다."
+
+msgid "Selected accounts were disabled."
+msgstr "선택된 계정이 비활성화 되었습니다."
+
+msgid "Selected accounts were enabled."
+msgstr "선택된 계정이 활성화 되었습니다."
+
+msgid "Selected accounts were marked as domain admin."
+msgstr "선택된 계정이 도메인 관리자로 지정되었습니다."
+
+msgid "Selected accounts were marked as global admin."
+msgstr "선택된 계정이 최상위 관리자로 지정되었습니다."
+
+msgid "Selected accounts were unmarked as domain admin."
+msgstr "선택된 계정의 도메인 관리자 지정이 해제 되었습니다."
+
+msgid "Selected accounts were unmarked as global admin."
+msgstr "선택된 계정의 최상위 관리자 지정이 해제 되었습니다."
+
+msgid "Selected domains have been deleted."
+msgstr ""
+
+msgid "Selected domains were disabled."
+msgstr "선택된 도메인이 비활성화 되었습니다."
+
+msgid "Selected domains were enabled."
+msgstr "선택된 도메인이 활성화 되었습니다."
+
+msgid "Selected log records were deleted."
+msgstr "선택된 로그 기록이 삭제되었습니다."
+
+msgid "Server Load"
+msgstr "서버 부하"
+
+msgid ""
+"Server-side size limit exceeded. Please increase \"sizelimit\" in your "
+"LDAP server."
+msgstr "서버의 용량이 초과되었습니다. LDAP 서버의 \"sizelimit\"을 증가시키십시오."
+
+msgid "Session expired, please re-login."
+msgstr "세션이 만료되었습니다. 다시 로그인하십시오."
+
+msgid "Set to 0 for unlimited."
+msgstr "0으로 지정하면 무제한으로 설정됩니다."
+
+#, python-format
+msgid "Some addresses have been discarded because they have been used: %s."
+msgstr ""
+
+msgid "Standalone admin account cannot be an user of local domain."
+msgstr ""
+
+msgid "Store password in plain text"
+msgstr "일반 문자로 암호를 저장합니다."
+
+msgid "Stored"
+msgstr "저장됨"
+
+msgid "Stored emails"
+msgstr "저장된 이메일"
+
+msgid "Submit"
+msgstr "제출"
+
+msgid "Submited domain name is incorrect."
+msgstr "제출된 도메인 이름이 일치하지 않습니다."
+
+msgid "Support"
+msgstr "지원"
+
+msgid "System Information"
+msgstr "시스템 정보"
+
+msgid "Telephone Number"
+msgstr "전화번호"
+
+msgid "Time"
+msgstr "시간"
+
+msgid "Time zone"
+msgstr ""
+
+msgid "Unban IP address"
+msgstr ""
+
+msgid "Unlimited"
+msgstr "무제한"
+
+msgid "Unmark as global admin"
+msgstr "최상위 관리자 해제"
+
+msgid "Unrestricted"
+msgstr "제한하지 않음"
+
+msgid "Update whitelists and blacklists"
+msgstr "화이트리스트 추가"
+
+msgid "Uptime"
+msgstr "가동시간"
+
+msgid "Use this password"
+msgstr ""
+
+msgid "Used"
+msgstr "사용됨"
+
+msgid "User"
+msgstr "사용자"
+
+msgid "User created."
+msgstr "사용자가 생성되었습니다."
+
+msgid "User login (self-service)"
+msgstr ""
+
+msgid "User/Employee ID"
+msgstr "사용자/직원 ID"
+
+msgid "Username"
+msgstr "사용자 이름"
+
+msgid "Username must be an valid email address."
+msgstr "사용자 이름으로 유효한 이메일 주소를 입력하십시오."
+
+msgid "Username or password is incorrect."
+msgstr "사용자 이름이나 암호가 일치하지 않습니다."
+
+msgid "Users"
+msgstr "사용자"
+
+#, python-format
+msgid "Users under domain: %s"
+msgstr "%s 도메인의 사용자"
+
+msgid "Users under same domain"
+msgstr ""
+
+msgid "Users under same domain and its sub-domains"
+msgstr ""
+
+msgid "Who can send email to this list"
+msgstr "리스트에 있는 수신자에게 메일을 보낼 수 있음"
+
+msgid "You are not allowed to update global domain admin's profile."
+msgstr ""
+
+msgid "without verifying local recipients"
+msgstr ""
+

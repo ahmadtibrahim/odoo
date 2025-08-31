@@ -1,0 +1,794 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version:  iRedAdmin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-16 23:51+0800\n"
+"PO-Revision-Date: 2017-01-18 15:27+0000\n"
+"Last-Translator: Zhang Huangbin\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: Simplified Chinese\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#, python-format
+msgid "%s days, %s hours, %s minutes."
+msgstr "%s 天，%s 小时，%s 分钟。"
+
+#, python-format
+msgid "(%d messages, %s.)"
+msgstr "（%d 邮件，%s.）"
+
+#, python-format
+msgid "(%d%% full, %d messages, %s.)"
+msgstr "（%d%% 已用，%d 邮件，%s。）"
+
+msgid "(Mailbox is empty.)"
+msgstr ""
+
+msgid "Account already exists, please choose another one."
+msgstr "帐号已存在，请选择另一个用户名。"
+
+msgid "Account does not exist."
+msgstr "帐号不存在。"
+
+msgid "Account is disabled."
+msgstr "帐号已禁用。"
+
+msgid "Account is global admin"
+msgstr "该帐号是全局管理员"
+
+msgid "Activate account"
+msgstr "启用帐号"
+
+msgid "Activities"
+msgstr "活动"
+
+msgid "Add"
+msgstr "添加"
+
+msgid "Add account"
+msgstr "添加帐号"
+
+msgid "Add admin"
+msgstr "添加管理员"
+
+msgid "Add domain"
+msgstr "添加域"
+
+msgid "Add mail user"
+msgstr "添加邮件用户"
+
+msgid "Add mail user under domain"
+msgstr "在域内添加用户"
+
+msgid "Add one"
+msgstr "添加一个"
+
+msgid "Add one more?"
+msgstr "再添加一个？"
+
+msgid "Admin"
+msgstr "管理员"
+
+msgid "Admin Log"
+msgstr "管理员日志"
+
+msgid "Admin created."
+msgstr "管理员已建立。"
+
+msgid "Admin login"
+msgstr "管理员登录"
+
+msgid "Admins"
+msgstr "管理员"
+
+#, python-format
+msgid "Admins under domain: %s"
+msgstr "域 %s 的管理员"
+
+msgid "Alias domains:"
+msgstr "别名域"
+
+msgid "All admins"
+msgstr "所有管理员"
+
+msgid "All domains"
+msgstr "所有域"
+
+msgid ""
+"All domains managed by this admin share the mailbox quota and limit of "
+"mail accounts."
+msgstr ""
+
+msgid "All domains under your control."
+msgstr "您管理的所有邮件域。"
+
+msgid "Allocated"
+msgstr "已分配"
+
+msgid "Already reaches account limit (mail aliases)."
+msgstr "已达到账号数量限制（别名账号）。"
+
+msgid "Already reaches account limit (mail domains)."
+msgstr "已达到账号数量限制（邮件域名）。"
+
+msgid "Already reaches account limit (mail users)."
+msgstr "已达到账号数量限制（邮件用户）。"
+
+msgid "Already reaches account limit (mailbox quota)."
+msgstr "已达到账号限制（邮箱容量）。"
+
+msgid "Already reaches account limit (mailing lists)."
+msgstr "已达到账号数量限制（邮件列表）。"
+
+msgid "Apply"
+msgstr "应用"
+
+#, python-format
+msgid "At least %d characters."
+msgstr "只少 %d 个字符。"
+
+#, python-format
+msgid "At least %s characters."
+msgstr "至少 %s 个字符。"
+
+msgid "At least one digit number"
+msgstr "至少一个数字"
+
+msgid "At least one letter"
+msgstr "至少一个字母"
+
+msgid "At least one special character:"
+msgstr "至少一个特殊字符："
+
+msgid "At least one uppercase letter"
+msgstr "至少一个大写字母"
+
+msgid "Available quota:"
+msgstr "空闲邮箱容量："
+
+msgid "Backup"
+msgstr "备份"
+
+msgid "Backup MX"
+msgstr "Backup MX"
+
+msgid "Choose Action"
+msgstr "选择操作"
+
+msgid "Company/Organization Name"
+msgstr "公司/组织名称"
+
+msgid "Confirm new password"
+msgstr "确认新密码"
+
+msgid "Contact webmaster"
+msgstr "联系管理员"
+
+msgid "Content of disclaimer will be appended to outgoing emails."
+msgstr ""
+
+msgid "Current password is incorrect."
+msgstr "当前密码错误。"
+
+msgid "DISABLED"
+msgstr "禁用"
+
+msgid "Dashboard"
+msgstr "控制台"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Delete account"
+msgstr "删除帐号"
+
+msgid "Delete all in database"
+msgstr "删除数据库里的所有记录"
+
+msgid "Delete mailboxes"
+msgstr "删除邮箱"
+
+msgid "Delete selected log"
+msgstr "删除选中的日志"
+
+msgid "Disable"
+msgstr "禁用"
+
+msgid "Disable account"
+msgstr "禁用帐号"
+
+msgid "Disabled"
+msgstr "已禁用"
+
+msgid "Disabled accounts"
+msgstr "禁用帐号"
+
+msgid "Disabled domains"
+msgstr "禁用域属性"
+
+msgid "Disclaimer"
+msgstr ""
+
+msgid "Display Name"
+msgstr "显示名称"
+
+msgid "Domain"
+msgstr "域名"
+
+msgid "Domain Admins"
+msgstr "域管理员"
+
+msgid "Domain Name"
+msgstr "域名"
+
+msgid "Domain already exists. Please check both primary or alias domains."
+msgstr "域已存在，请检查域名或域别名。"
+
+msgid "Domain created."
+msgstr "域名已建立。"
+
+msgid "Domain is active, but marked as backup MX."
+msgstr "域名已启用，但标记为 backup MX。"
+
+msgid "Domain is active, but relay to other host"
+msgstr "域名已启用，但转发到其它服务器"
+
+msgid "Domain is disabled."
+msgstr "域名已禁用。"
+
+msgid "Domain name is empty."
+msgstr "域名为空。"
+
+msgid "Domain name or username is missed."
+msgstr "没有域名或用户名。"
+
+msgid ""
+"Domain quota size exceeded. Please contact your administrator or service "
+"provider to increase it."
+msgstr "已达到域的容量限制。请联系管理员或服务提供商增加相应容量。"
+
+msgid "Domains"
+msgstr "域名"
+
+msgid "Domains and Accounts"
+msgstr "域和帐号"
+
+msgid "Dump disclaimer automatically"
+msgstr ""
+
+msgid "Edit account profile"
+msgstr "编辑帐号属性"
+
+msgid "Edit domain profile"
+msgstr "编辑域属性"
+
+msgid "Edit quota setting"
+msgstr "编辑邮箱容量设置"
+
+msgid "Email address was changed."
+msgstr "每行只能填一个邮件地址。"
+
+msgid "Emails"
+msgstr "邮件"
+
+msgid "Empty password is not allowed."
+msgstr "密码不允许为空。"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "Enable this account"
+msgstr "启用这个帐号"
+
+msgid "Enable this domain"
+msgstr "启用这个域"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "Error while checking new version of iRedAdmin:"
+msgstr ""
+
+msgid "Error:"
+msgstr "错误："
+
+msgid "Events"
+msgstr "事件"
+
+msgid "Everyone can send mail to this address"
+msgstr "所有人都可以发送邮件到这个地址"
+
+msgid ""
+"Exceeded domain account limit. Please contact your administrator or "
+"service provider to increase it."
+msgstr "已达到域的帐号数量限制。请联系管理员或服务提供商增加相应容量。"
+
+msgid "Filter accounts by first character in email addresses"
+msgstr "以邮件地址的第一个字符过滤"
+
+msgid "Filter domains by first character in mail domain name"
+msgstr "以域名的第一个字符过滤"
+
+msgid "Filter:"
+msgstr "过滤："
+
+msgid "First Page"
+msgstr "第一页"
+
+msgid "First name"
+msgstr "名"
+
+msgid "Full name"
+msgstr "全名"
+
+msgid "General"
+msgstr "常用设置"
+
+msgid "Global Admin"
+msgstr "全局管理员"
+
+msgid "Grant admin"
+msgstr "域管理员"
+
+msgid "Hostname"
+msgstr "主机名"
+
+msgid "IMAP Login:"
+msgstr "IMAP 登录："
+
+msgid "IP Address"
+msgstr "IP 地址"
+
+msgid "Invalid account."
+msgstr "无效的账号。"
+
+msgid "Invalid action."
+msgstr "无效的操作。"
+
+msgid "Invalid domain name."
+msgstr "无效的域名。"
+
+msgid "Invalid mail address."
+msgstr "无效的邮件地址。"
+
+msgid "Is a global admin."
+msgstr "全局管理员。"
+
+msgid "Job Title"
+msgstr "职位"
+
+#, python-format
+msgid "Keep mailbox for %d days"
+msgstr "邮箱保留 %d 天"
+
+#, python-format
+msgid "Keep mailbox for %d months"
+msgstr "邮箱保留 %d 个月"
+
+#, python-format
+msgid "Keep mailbox for %d weeks"
+msgstr "邮箱保留 %d 周"
+
+#, python-format
+msgid "Keep mailbox for %d years"
+msgstr "邮箱保留 %d 年"
+
+msgid "Keep mailbox for 1 day"
+msgstr "保留邮箱 1 天"
+
+msgid "Keep mailbox for 1 month "
+msgstr "邮箱保留一个月"
+
+msgid "Keep mailbox for 1 week"
+msgstr "邮箱保留一星期"
+
+msgid "Keep mailbox for 1 year"
+msgstr "邮箱保留 1 年"
+
+msgid "Keep mailbox forever"
+msgstr "永久保留邮箱"
+
+msgid "Last Page"
+msgstr "最后一页"
+
+msgid "Last name"
+msgstr "姓"
+
+msgid "List all mail users."
+msgstr "列出所有邮件用户。"
+
+#, python-format
+msgid "Logged in as %s"
+msgstr "登录帐号：%s"
+
+msgid "Login"
+msgstr "登录"
+
+msgid "Login from your IP address is not allowed."
+msgstr "从当前 IP 地址登录是不允许的。"
+
+msgid "Login required"
+msgstr "需要先登陆才能进行操作"
+
+msgid "Login to manage your mail domains & accounts"
+msgstr "登录管理您的邮件域和帐号"
+
+msgid "Logout"
+msgstr "退出登录"
+
+msgid "Mail Address"
+msgstr "邮件地址"
+
+msgid "Mail Users"
+msgstr "邮件用户"
+
+msgid "Mailbox Quota"
+msgstr "邮箱容量"
+
+msgid "Make sure disclaimer work as expected:"
+msgstr ""
+
+msgid "Mark as global admin"
+msgstr "标记为全局管理员"
+
+msgid "Mark this user as global admin"
+msgstr ""
+
+msgid "Member of mailing lists:"
+msgstr "是以下邮件列表的成员："
+
+msgid "Members"
+msgstr "成员"
+
+msgid "Members and moderators"
+msgstr "成员或管理员"
+
+msgid "Message"
+msgstr "信息"
+
+msgid "Mobile"
+msgstr "手机"
+
+msgid "Moderators"
+msgstr "管理员"
+
+#, python-format
+msgid "Must be %s - %s characters."
+msgstr ""
+
+msgid "Need a strong password?"
+msgstr "需要一个强密码？"
+
+msgid "Network"
+msgstr "网络"
+
+msgid "New Mail Delivered:"
+msgstr "新邮件投递："
+
+msgid "New password"
+msgstr "新密码"
+
+#, python-format
+msgid "New password must NOT contain more than %s characters."
+msgstr "新密码不得多于 %s 个字符。"
+
+#, python-format
+msgid "New password must contain at least %s characters."
+msgstr "新密码必须包含至少 %s 个字符。"
+
+msgid "New passwords are not match."
+msgstr "新密码不匹配。"
+
+#, python-format
+msgid ""
+"New version of iRedAdmin, %s, is now available for upgrading. <a "
+"href='https://docs.iredmail.org/migrate.or.upgrade.iredadmin.html' "
+"class='button green'>Upgrade tutorial</a>."
+msgstr ""
+
+msgid "Next Page"
+msgstr "下一页"
+
+msgid "No account selected."
+msgstr "未选中任何帐号。"
+
+msgid "No admin log."
+msgstr "没有管理员日志。"
+
+msgid "No digit number in password."
+msgstr "密码里没有包含数字。"
+
+msgid "No domain under control."
+msgstr "没有受管理的域。"
+
+msgid "No letter in password."
+msgstr "密码里没有字母。"
+
+msgid "No mail admin assigned."
+msgstr "没有指派管理员。"
+
+msgid "No mail domain available."
+msgstr "没有邮件域。"
+
+msgid "No mail user available."
+msgstr "没有用户。"
+
+#, python-format
+msgid "No more than %d characters."
+msgstr "不能多于 %d 个字符。"
+
+#, python-format
+msgid "No more than %s characters."
+msgstr "不多于 %s 个字符。"
+
+msgid "No special character in password."
+msgstr "密码里没有非 ASCII 字符。"
+
+msgid "No uppercase letter in password."
+msgstr "密码里没有大写字母。"
+
+msgid "Not a global admin."
+msgstr "不是全局管理员。"
+
+msgid "Not allowed to create mail user under this domain."
+msgstr "不允许在此域内创建邮件用户。"
+
+msgid "Note: Global admin can manage all mail domains."
+msgstr ""
+
+msgid "Number of domains"
+msgstr "邮件域数量"
+
+msgid "Number of users"
+msgstr "邮件用户数量"
+
+msgid "Old password"
+msgstr "旧密码"
+
+msgid ""
+"One IP address or network per line. Invalid address or network will be "
+"discarded."
+msgstr "每行填写一个 IP 地址或网段。无效地址或网段将被直接丢弃。"
+
+msgid "One mail address per line. Invalid address will be discarded."
+msgstr "每行填写一个邮件地址。无效地址将被直接丢弃。"
+
+msgid "Or create other mail accounts:"
+msgstr "或创建其它邮件帐号："
+
+msgid "POP3 Login:"
+msgstr "POP3 登录："
+
+msgid "Password"
+msgstr "密码"
+
+msgid "Password is empty."
+msgstr "密码为空。"
+
+msgid "Password is too long."
+msgstr "密码过长。"
+
+msgid "Password is too short."
+msgstr "密码太短。"
+
+msgid "Password last change:"
+msgstr "密码最后修改时间："
+
+msgid "Password must contain"
+msgstr "新密码必须包含"
+
+msgid "Permission denied."
+msgstr "无权限访问。"
+
+msgid "Plain text only"
+msgstr ""
+
+msgid "Please do not use non-ascii character in password."
+msgstr "请勿在密码中使用非 ASCII 字符。"
+
+msgid "Please select at least one account."
+msgstr "请至少选择一个帐号进行操作。"
+
+msgid "Please select at least one domain."
+msgstr "请至少选择一个域名进行操作。"
+
+msgid "Preferences"
+msgstr "偏好设置"
+
+msgid "Preferred language"
+msgstr "语言"
+
+msgid "Previous Page"
+msgstr "上一页"
+
+msgid "Profile has been updated."
+msgstr "属性已更新。"
+
+msgid "Profile of admin:"
+msgstr "管理员属性："
+
+msgid "Profile of domain:"
+msgstr "域属性："
+
+msgid "Profile of user:"
+msgstr "用户属性："
+
+msgid "Profile updated failed."
+msgstr "属性更新失败。"
+
+msgid "Quota"
+msgstr "邮箱容量"
+
+msgid "Records were successfully updated."
+msgstr "记录已成功更新。"
+
+msgid "Relay"
+msgstr "中继转发"
+
+msgid "Revoke admin privilege"
+msgstr "移除管理员权限"
+
+msgid "Save changes"
+msgstr "保存更改"
+
+msgid ""
+"Security token did not match. Please refresh current page and re-perform "
+"form action."
+msgstr "安全标记不匹配，请刷新当前页面并重新执行操作。"
+
+msgid "Selected accounts were deleted."
+msgstr "选定的帐号已删除。"
+
+msgid "Selected accounts were disabled."
+msgstr "选定的帐号已禁用。"
+
+msgid "Selected accounts were enabled."
+msgstr "选定的帐号已启用。"
+
+msgid "Selected accounts were marked as domain admin."
+msgstr "选定的账号已标记为域管理员。"
+
+msgid "Selected accounts were marked as global admin."
+msgstr "选定的帐号已标记为全局管理员。"
+
+msgid "Selected accounts were unmarked as domain admin."
+msgstr "选定的帐号已不再是管理员。"
+
+msgid "Selected accounts were unmarked as global admin."
+msgstr "选定的帐号已不再是全局管理员。"
+
+msgid "Selected domains have been deleted."
+msgstr "所选域名已删除。"
+
+msgid "Selected domains were disabled."
+msgstr "所选域名已禁用。"
+
+msgid "Selected domains were enabled."
+msgstr "所选域名已启用。"
+
+msgid "Selected log records were deleted."
+msgstr "所选记录已删除。"
+
+msgid "Server Load"
+msgstr "服务器负载"
+
+msgid ""
+"Server-side size limit exceeded. Please increase \"sizelimit\" in your "
+"LDAP server."
+msgstr "已达到服务器端的查询限制，请增大 LDAP 服务器的 'sizelimit' 参数。"
+
+msgid "Session expired, please re-login."
+msgstr "会话过期，请重新登陆。"
+
+msgid "Set to 0 for unlimited."
+msgstr "设置为 0 表示无限制。"
+
+#, python-format
+msgid "Some addresses have been discarded because they have been used: %s."
+msgstr "一些地址被丢弃了：%s。"
+
+msgid "Standalone admin account cannot be an user of local domain."
+msgstr "独立管理员不能是本地邮件域内的用户。"
+
+msgid "Store password in plain text"
+msgstr "以明文存储密码"
+
+msgid "Stored"
+msgstr "已使用"
+
+msgid "Stored emails"
+msgstr "存储的邮件"
+
+msgid "Submit"
+msgstr "提交"
+
+msgid "Submited domain name is incorrect."
+msgstr "提交的域名不正确。"
+
+msgid "Support"
+msgstr "技术支持"
+
+msgid "System Information"
+msgstr "系统信息"
+
+msgid "Telephone Number"
+msgstr "电话号码"
+
+msgid "Time"
+msgstr "时间"
+
+msgid "Time zone"
+msgstr "时区"
+
+msgid "Unban IP address"
+msgstr "解封 IP 地址"
+
+msgid "Unlimited"
+msgstr "无限制"
+
+msgid "Unmark as global admin"
+msgstr "移除全局管理员权限"
+
+msgid "Unrestricted"
+msgstr "无限制"
+
+msgid "Update whitelists and blacklists"
+msgstr "更新黑白名单"
+
+msgid "Uptime"
+msgstr "运行时间"
+
+msgid "Use this password"
+msgstr "使用这个密码"
+
+msgid "Used"
+msgstr "已使用"
+
+msgid "User"
+msgstr "用户"
+
+msgid "User created."
+msgstr "用户已建立。"
+
+msgid "User login (self-service)"
+msgstr "用户登录（自助服务）"
+
+msgid "User/Employee ID"
+msgstr "用户/员工 ID"
+
+msgid "Username"
+msgstr "用户名"
+
+msgid "Username must be an valid email address."
+msgstr "用户名必须是一个有效的邮件地址。"
+
+msgid "Username or password is incorrect."
+msgstr "用户名或密码错误"
+
+msgid "Users"
+msgstr "用户"
+
+#, python-format
+msgid "Users under domain: %s"
+msgstr "域 %s 的用户"
+
+msgid "Users under same domain"
+msgstr "同一域名内的用户"
+
+msgid "Users under same domain and its sub-domains"
+msgstr "同一域名和子域名内的用户"
+
+msgid "Who can send email to this list"
+msgstr "谁能发送邮件到这个列表"
+
+msgid "You are not allowed to update global domain admin's profile."
+msgstr "不允许更新全局管理员的属性。"
+
+msgid "without verifying local recipients"
+msgstr "不检查是否本地用户"
+

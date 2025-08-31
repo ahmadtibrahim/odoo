@@ -1,0 +1,31 @@
+{% from "macros/form_inputs.html" import
+    input_text
+    with context
+    %}
+
+{% macro display_job_titles(values=None) -%}
+    {% if not values %}
+        {{ input_text(label=_('Job Title'),
+                      input_name='title',
+                      value='') }}
+    {% else %}
+        {% for value in values |sort %}
+            {% if loop.first %}
+                {% set label = _('Job Title') %}
+            {% else %}
+                {% set label = '' %}
+            {% endif %}
+
+            {{ input_text(label=label,
+                          input_name='title',
+                          value=value) }}
+        {% endfor %}
+    {% endif %}
+
+    <div class="form-field clear">
+        <h4 class="size-250 fl-space">&nbsp;</h4>
+        <span class="clean-padding bt-space20">
+            <input type="text" name="title" value="" size="35" class="text" />
+        </span>
+    </div>
+{%- endmacro %}

@@ -1,0 +1,808 @@
+# Hungarian (Hungary) translations for PROJECT.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: zhb@iredmail.org\n"
+"POT-Creation-Date: 2023-06-16 23:51+0800\n"
+"PO-Revision-Date: 2014-03-17 12:00+0100\n"
+"Last-Translator: Balázsi Gábor <gapcsi@gmail.com>\n"
+"Language: hu_HU\n"
+"Language-Team: hu_HU <gapcsi@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#, python-format
+msgid "%s days, %s hours, %s minutes."
+msgstr "%s nap, %s óra, %s perc."
+
+#, python-format
+msgid "(%d messages, %s.)"
+msgstr ""
+
+#, python-format
+msgid "(%d%% full, %d messages, %s.)"
+msgstr ""
+
+msgid "(Mailbox is empty.)"
+msgstr ""
+
+msgid "Account already exists, please choose another one."
+msgstr "A fiók már létezik, válasszon másik felhasználónevet."
+
+msgid "Account does not exist."
+msgstr "Admin nem létezik."
+
+msgid "Account is disabled."
+msgstr "A fiók letiltva."
+
+msgid "Account is global admin"
+msgstr "Globális admin fiók"
+
+msgid "Activate account"
+msgstr "Fiók aktiválása"
+
+msgid "Activities"
+msgstr ""
+
+msgid "Add"
+msgstr "Hozzáadás"
+
+msgid "Add account"
+msgstr "Fiók hozzáadása"
+
+msgid "Add admin"
+msgstr "Admin hozzáadása"
+
+msgid "Add domain"
+msgstr "Domain hozzáadása"
+
+msgid "Add mail user"
+msgstr "Levelezési lista hozzáadása"
+
+msgid "Add mail user under domain"
+msgstr "Felhasználó hozzáadása domainhez: %s"
+
+msgid "Add one"
+msgstr "Még egy hozzáadása"
+
+msgid "Add one more?"
+msgstr "Hozzáad még egyet?"
+
+msgid "Admin"
+msgstr "Admin"
+
+msgid "Admin Log"
+msgstr "Admin napló"
+
+msgid "Admin created."
+msgstr "Admin létrehozva."
+
+msgid "Admin login"
+msgstr "Admin bejelentkezés"
+
+msgid "Admins"
+msgstr "Adminok"
+
+#, python-format
+msgid "Admins under domain: %s"
+msgstr "Domainhez tartozó felhasználók: %s"
+
+msgid "Alias domains:"
+msgstr ""
+
+msgid "All admins"
+msgstr "Összes admin"
+
+msgid "All domains"
+msgstr "Összes domain"
+
+msgid ""
+"All domains managed by this admin share the mailbox quota and limit of "
+"mail accounts."
+msgstr ""
+
+msgid "All domains under your control."
+msgstr "Az irányításod alatti domainek."
+
+msgid "Allocated"
+msgstr "Kiosztott"
+
+msgid "Already reaches account limit (mail aliases)."
+msgstr ""
+
+msgid "Already reaches account limit (mail domains)."
+msgstr ""
+
+msgid "Already reaches account limit (mail users)."
+msgstr ""
+
+msgid "Already reaches account limit (mailbox quota)."
+msgstr ""
+
+msgid "Already reaches account limit (mailing lists)."
+msgstr ""
+
+msgid "Apply"
+msgstr "Alkalmaz"
+
+#, python-format
+msgid "At least %d characters."
+msgstr ""
+
+#, python-format
+msgid "At least %s characters."
+msgstr "Legalább %s karakter."
+
+msgid "At least one digit number"
+msgstr ""
+
+msgid "At least one letter"
+msgstr ""
+
+msgid "At least one special character:"
+msgstr ""
+
+msgid "At least one uppercase letter"
+msgstr ""
+
+msgid "Available quota:"
+msgstr "Rendelkezésre álló kvóta:"
+
+msgid "Backup"
+msgstr ""
+
+msgid "Backup MX"
+msgstr ""
+
+msgid "Choose Action"
+msgstr "Válassz tevékenységet"
+
+msgid "Company/Organization Name"
+msgstr "Cég / Szervezet neve"
+
+msgid "Confirm new password"
+msgstr "Új jelszó megerősítése"
+
+msgid "Contact webmaster"
+msgstr "Kapcsolat a webmesterrel"
+
+msgid "Content of disclaimer will be appended to outgoing emails."
+msgstr ""
+
+msgid "Current password is incorrect."
+msgstr "A jelenlegi jelszó hibás."
+
+msgid "DISABLED"
+msgstr "TILTVA"
+
+msgid "Dashboard"
+msgstr "Műszerfal"
+
+msgid "Delete"
+msgstr "Törlés"
+
+msgid "Delete account"
+msgstr "Fiók törlése"
+
+msgid "Delete all in database"
+msgstr "Minden törlése az adatbázisban"
+
+msgid "Delete mailboxes"
+msgstr ""
+
+msgid "Delete selected log"
+msgstr ""
+
+msgid "Disable"
+msgstr "Leiltás"
+
+msgid "Disable account"
+msgstr "Fiók letiltása"
+
+msgid "Disabled"
+msgstr "Letiltva"
+
+msgid "Disabled accounts"
+msgstr "Fiók letiltása"
+
+msgid "Disabled domains"
+msgstr "Letiltott domainprofilok"
+
+msgid "Disclaimer"
+msgstr ""
+
+msgid "Display Name"
+msgstr "Megjelenítési név"
+
+msgid "Domain"
+msgstr "Domain"
+
+msgid "Domain Admins"
+msgstr "Domain Adminok"
+
+msgid "Domain Name"
+msgstr "Domain Név"
+
+msgid "Domain already exists. Please check both primary or alias domains."
+msgstr ""
+"Domain már létezik. Kérem ellenőrízze az elsődleges és alias domaineket "
+"is."
+
+msgid "Domain created."
+msgstr "Domain létrehozva."
+
+msgid "Domain is active, but marked as backup MX."
+msgstr ""
+
+msgid "Domain is active, but relay to other host"
+msgstr ""
+
+msgid "Domain is disabled."
+msgstr ""
+
+msgid "Domain name is empty."
+msgstr "Domain név üres."
+
+msgid "Domain name or username is missed."
+msgstr "Domain név vagy felhasználónév hiányzik."
+
+msgid ""
+"Domain quota size exceeded. Please contact your administrator or service "
+"provider to increase it."
+msgstr ""
+"Meghaladta a domain kvótaméretét. Vegye fel a kapcsolatot az "
+"adminisztrátorral vagy szolgáltatójával, hogy megnövelhesse."
+
+msgid "Domains"
+msgstr "Domainek"
+
+msgid "Domains and Accounts"
+msgstr "Domainek és Fiókok"
+
+msgid "Dump disclaimer automatically"
+msgstr ""
+
+msgid "Edit account profile"
+msgstr "Fiókprofil szerkesztése"
+
+msgid "Edit domain profile"
+msgstr "Domainprofil szerkesztése"
+
+msgid "Edit quota setting"
+msgstr "Kvótabeállítások szerkesztése"
+
+msgid "Email address was changed."
+msgstr "Soronként egy levelezési cím."
+
+msgid "Emails"
+msgstr "Emailek"
+
+msgid "Empty password is not allowed."
+msgstr "Üres jelszó nem megengedett."
+
+msgid "Enable"
+msgstr "Engedélyezés"
+
+msgid "Enable this account"
+msgstr "Fiók engedélyezése"
+
+msgid "Enable this domain"
+msgstr "Domain engedélyezése"
+
+msgid "Error"
+msgstr ""
+
+msgid "Error while checking new version of iRedAdmin:"
+msgstr ""
+
+msgid "Error:"
+msgstr "Hiba:"
+
+msgid "Events"
+msgstr "Események"
+
+msgid "Everyone can send mail to this address"
+msgstr "Mindenki tud levelet küldeni erre a címre"
+
+msgid ""
+"Exceeded domain account limit. Please contact your administrator or "
+"service provider to increase it."
+msgstr ""
+"Meghaladta a domain fiókszámának korlátját. Vegye fel a kapcsolatot az "
+"adminisztrátorral vagy szolgáltatójával, hogy megnövelhesse."
+
+msgid "Filter accounts by first character in email addresses"
+msgstr ""
+
+msgid "Filter domains by first character in mail domain name"
+msgstr ""
+
+msgid "Filter:"
+msgstr "Szűrő:"
+
+msgid "First Page"
+msgstr "Első oldal"
+
+msgid "First name"
+msgstr "Keresztnév"
+
+msgid "Full name"
+msgstr "Teljes név"
+
+msgid "General"
+msgstr "Általános"
+
+msgid "Global Admin"
+msgstr "Globális Admin"
+
+msgid "Grant admin"
+msgstr "Domain admin"
+
+msgid "Hostname"
+msgstr "Hosztnév"
+
+msgid "IMAP Login:"
+msgstr ""
+
+msgid "IP Address"
+msgstr "IP Cím"
+
+msgid "Invalid account."
+msgstr "Érvénytelen tevékenység."
+
+msgid "Invalid action."
+msgstr "Érvénytelen tevékenység."
+
+msgid "Invalid domain name."
+msgstr "Érvénytelen domain név."
+
+msgid "Invalid mail address."
+msgstr "Érvénytelen levelezési cím."
+
+msgid "Is a global admin."
+msgstr "Globális admin."
+
+msgid "Job Title"
+msgstr "Beosztás"
+
+#, python-format
+msgid "Keep mailbox for %d days"
+msgstr ""
+
+#, python-format
+msgid "Keep mailbox for %d months"
+msgstr ""
+
+#, python-format
+msgid "Keep mailbox for %d weeks"
+msgstr ""
+
+#, python-format
+msgid "Keep mailbox for %d years"
+msgstr ""
+
+msgid "Keep mailbox for 1 day"
+msgstr ""
+
+msgid "Keep mailbox for 1 month "
+msgstr ""
+
+msgid "Keep mailbox for 1 week"
+msgstr ""
+
+msgid "Keep mailbox for 1 year"
+msgstr ""
+
+msgid "Keep mailbox forever"
+msgstr ""
+
+msgid "Last Page"
+msgstr "Utolsó oldal"
+
+msgid "Last name"
+msgstr "Vezetéknév"
+
+msgid "List all mail users."
+msgstr "Összes levelező felhasználó listázása."
+
+#, python-format
+msgid "Logged in as %s"
+msgstr "Bejelentkezve mint %s"
+
+msgid "Login"
+msgstr "Bejelentkezés"
+
+msgid "Login from your IP address is not allowed."
+msgstr ""
+
+msgid "Login required"
+msgstr "Bejelentkezés szükséges"
+
+msgid "Login to manage your mail domains & accounts"
+msgstr "Bejelentkezés a levelezési domainek, fiókok felügyeletéhez"
+
+msgid "Logout"
+msgstr "Kijelentkezés"
+
+msgid "Mail Address"
+msgstr "Levelezési cím"
+
+msgid "Mail Users"
+msgstr "Level felhasználók"
+
+msgid "Mailbox Quota"
+msgstr "Levelesláda kvótája"
+
+msgid "Make sure disclaimer work as expected:"
+msgstr ""
+
+msgid "Mark as global admin"
+msgstr "Megjelölés globális adminként"
+
+msgid "Mark this user as global admin"
+msgstr ""
+
+msgid "Member of mailing lists:"
+msgstr ""
+
+msgid "Members"
+msgstr "Tagok"
+
+msgid "Members and moderators"
+msgstr ""
+
+msgid "Message"
+msgstr "Üzenet"
+
+msgid "Mobile"
+msgstr "Mobil"
+
+msgid "Moderators"
+msgstr "Moderátorok"
+
+#, python-format
+msgid "Must be %s - %s characters."
+msgstr ""
+
+msgid "Need a strong password?"
+msgstr ""
+
+msgid "Network"
+msgstr "Hálózat"
+
+msgid "New Mail Delivered:"
+msgstr ""
+
+msgid "New password"
+msgstr "Új jelszó"
+
+#, python-format
+msgid "New password must NOT contain more than %s characters."
+msgstr "Az új jelszó nem tartalmazhat több karaktert mint %s."
+
+#, python-format
+msgid "New password must contain at least %s characters."
+msgstr "Az új jelszó nem tartalmazhat kevesebb karaktert mint %s."
+
+msgid "New passwords are not match."
+msgstr "Az új jelszó nem egyezik."
+
+#, python-format
+msgid ""
+"New version of iRedAdmin, %s, is now available for upgrading. <a "
+"href='https://docs.iredmail.org/migrate.or.upgrade.iredadmin.html' "
+"class='button green'>Upgrade tutorial</a>."
+msgstr ""
+
+msgid "Next Page"
+msgstr "Következő oldal"
+
+msgid "No account selected."
+msgstr "Nincs fiók kiválasztva."
+
+msgid "No admin log."
+msgstr "Nincs admin napló."
+
+msgid "No digit number in password."
+msgstr ""
+
+msgid "No domain under control."
+msgstr "Nincs domain az irányítás alatt."
+
+msgid "No letter in password."
+msgstr ""
+
+msgid "No mail admin assigned."
+msgstr ""
+
+msgid "No mail domain available."
+msgstr "Nem áll rendelkezésre levelezési domain."
+
+msgid "No mail user available."
+msgstr "Nem áll rendelkezésre levelezési felhasználó."
+
+#, python-format
+msgid "No more than %d characters."
+msgstr ""
+
+#, python-format
+msgid "No more than %s characters."
+msgstr "Ne legyen több mint %s karakter."
+
+msgid "No special character in password."
+msgstr "Ne használjon nem ASCII karakteres jelszót."
+
+msgid "No uppercase letter in password."
+msgstr ""
+
+msgid "Not a global admin."
+msgstr "Nem globális admin."
+
+msgid "Not allowed to create mail user under this domain."
+msgstr "Nem hozhat létre levelező felhasználót ez alatt a domain alatt."
+
+msgid "Note: Global admin can manage all mail domains."
+msgstr ""
+
+msgid "Number of domains"
+msgstr "Domainek száma"
+
+msgid "Number of users"
+msgstr "Felhasználók száma"
+
+msgid "Old password"
+msgstr "Régi jelszó"
+
+msgid ""
+"One IP address or network per line. Invalid address or network will be "
+"discarded."
+msgstr ""
+
+msgid "One mail address per line. Invalid address will be discarded."
+msgstr ""
+
+msgid "Or create other mail accounts:"
+msgstr "Vagy másik levelező fiók létrehozása:"
+
+msgid "POP3 Login:"
+msgstr ""
+
+msgid "Password"
+msgstr "Jelszó"
+
+msgid "Password is empty."
+msgstr "Jelszó üres."
+
+msgid "Password is too long."
+msgstr "Jelszó túl hosszú."
+
+msgid "Password is too short."
+msgstr "Jelszó túl rövid."
+
+msgid "Password last change:"
+msgstr ""
+
+msgid "Password must contain"
+msgstr "Az új jelszó nem tartalmazhat kevesebb karaktert mint %s."
+
+msgid "Permission denied."
+msgstr "Jogosultság megtagadva."
+
+msgid "Plain text only"
+msgstr ""
+
+msgid "Please do not use non-ascii character in password."
+msgstr "Ne használjon nem ASCII karakteres jelszót."
+
+msgid "Please select at least one account."
+msgstr "Válasszon ki legalább egy fiókot."
+
+msgid "Please select at least one domain."
+msgstr "Válasszon ki legalább egy fiókot."
+
+msgid "Preferences"
+msgstr "Beállítások"
+
+msgid "Preferred language"
+msgstr "Preferált nyelv"
+
+msgid "Previous Page"
+msgstr "Előző oldal"
+
+msgid "Profile has been updated."
+msgstr ""
+
+msgid "Profile of admin:"
+msgstr "Admin profilja:"
+
+msgid "Profile of domain:"
+msgstr "Domain profilja:"
+
+msgid "Profile of user:"
+msgstr "Felhasználó profilja:"
+
+msgid "Profile updated failed."
+msgstr "Profilfrissítés sikertelen."
+
+msgid "Quota"
+msgstr "Kvóta"
+
+msgid "Records were successfully updated."
+msgstr "Bajegyzés sikeresen hozzáadva."
+
+msgid "Relay"
+msgstr "Relay"
+
+msgid "Revoke admin privilege"
+msgstr "Admin profilja:"
+
+msgid "Save changes"
+msgstr "Változások mentése"
+
+msgid ""
+"Security token did not match. Please refresh current page and re-perform "
+"form action."
+msgstr ""
+"Biztonsági token nem egyezik. Kérjük, frissítse az aktuális oldalt, és "
+"végezze el újra a bevitelt."
+
+msgid "Selected accounts were deleted."
+msgstr "A kiválasztott fiókok törölve lettek."
+
+msgid "Selected accounts were disabled."
+msgstr "A kiválasztott fiókok le lettek tiltva."
+
+msgid "Selected accounts were enabled."
+msgstr "A kiválasztott fiókok engedélyezve lettek."
+
+msgid "Selected accounts were marked as domain admin."
+msgstr "A kiválasztott fiókok engedélyezve lettek."
+
+msgid "Selected accounts were marked as global admin."
+msgstr "A kiválasztott fiókok engedélyezve lettek."
+
+msgid "Selected accounts were unmarked as domain admin."
+msgstr "A kiválasztott fiókok engedélyezve lettek."
+
+msgid "Selected accounts were unmarked as global admin."
+msgstr "A kiválasztott fiókok engedélyezve lettek."
+
+msgid "Selected domains have been deleted."
+msgstr ""
+
+msgid "Selected domains were disabled."
+msgstr "A kiválasztott domainek le lettek tiltva."
+
+msgid "Selected domains were enabled."
+msgstr "A kiválasztott domainek engedélyezve lettek."
+
+msgid "Selected log records were deleted."
+msgstr "A kiválasztott naplóbejegyzések törölve lettek."
+
+msgid "Server Load"
+msgstr "Szerver terhelés"
+
+msgid ""
+"Server-side size limit exceeded. Please increase \"sizelimit\" in your "
+"LDAP server."
+msgstr ""
+"A szerver oldali méretkorlátot túllépte. Kérjük, növelje \"sizelimit\" "
+"-et az LDAP kiszolgálón."
+
+msgid "Session expired, please re-login."
+msgstr "A munkamenet lejárt, jelentkezz be újra."
+
+msgid "Set to 0 for unlimited."
+msgstr "0-ra állítva korlátlan."
+
+#, python-format
+msgid "Some addresses have been discarded because they have been used: %s."
+msgstr ""
+
+msgid "Standalone admin account cannot be an user of local domain."
+msgstr ""
+
+msgid "Store password in plain text"
+msgstr "Jelszó egyszerű szövegként tárolva"
+
+msgid "Stored"
+msgstr "Tárolt"
+
+msgid "Stored emails"
+msgstr "Tárolt emailek"
+
+msgid "Submit"
+msgstr "Bevitel"
+
+msgid "Submited domain name is incorrect."
+msgstr "A bevitt domain név helytelen."
+
+msgid "Support"
+msgstr "Támogatás"
+
+msgid "System Information"
+msgstr "Rendszerinformáció"
+
+msgid "Telephone Number"
+msgstr "Telefonszám"
+
+msgid "Time"
+msgstr "Idő"
+
+msgid "Time zone"
+msgstr ""
+
+msgid "Unban IP address"
+msgstr ""
+
+msgid "Unlimited"
+msgstr "Korlátlan"
+
+msgid "Unmark as global admin"
+msgstr "Globális admin jog megvonása"
+
+msgid "Unrestricted"
+msgstr "Korlátlan"
+
+msgid "Update whitelists and blacklists"
+msgstr "A fehér és feketelistáról"
+
+msgid "Uptime"
+msgstr "Üzemidő"
+
+msgid "Use this password"
+msgstr ""
+
+msgid "Used"
+msgstr "Használatban"
+
+msgid "User"
+msgstr "Felhasználó"
+
+msgid "User created."
+msgstr "Felhasználó létrehozva."
+
+msgid "User login (self-service)"
+msgstr ""
+
+msgid "User/Employee ID"
+msgstr "Felhasználó/Alkalmazott azonosító "
+
+msgid "Username"
+msgstr "Felhasználónév"
+
+msgid "Username must be an valid email address."
+msgstr "Felhasználónévnek egy érvényes email címnek kell lennie."
+
+msgid "Username or password is incorrect."
+msgstr "Hibás felhasználónév vagy jelszó."
+
+msgid "Users"
+msgstr "Felhasználók"
+
+#, python-format
+msgid "Users under domain: %s"
+msgstr "Domainhez tartozó felhasználók: %s"
+
+msgid "Users under same domain"
+msgstr ""
+
+msgid "Users under same domain and its sub-domains"
+msgstr ""
+
+msgid "Who can send email to this list"
+msgstr "Ki küldhet emailt erre a listára"
+
+msgid "You are not allowed to update global domain admin's profile."
+msgstr ""
+
+msgid "without verifying local recipients"
+msgstr ""
+

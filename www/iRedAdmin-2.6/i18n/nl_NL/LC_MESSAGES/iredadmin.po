@@ -1,0 +1,806 @@
+# Dutch translations for iRedAdmin.
+# Copyright (C) 2009 ORGANIZATION
+# This file is distributed under the same license as the iRedAdmin project.
+# FIRST AUTHOR <lverhoeven@vcn.nl>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:  iRedAdmin\n"
+"Report-Msgid-Bugs-To: lverhoeven@vcn.nl\n"
+"POT-Creation-Date: 2023-06-16 23:51+0800\n"
+"PO-Revision-Date: 2011-06-10 23:46+0800\n"
+"Last-Translator: Luc Verhoeven <lverhoeven@vcn>\n"
+"Language: nl_NL\n"
+"Language-Team: nl_NL <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#, python-format
+msgid "%s days, %s hours, %s minutes."
+msgstr "%s dagen, %s uur, %s minuten."
+
+#, python-format
+msgid "(%d messages, %s.)"
+msgstr ""
+
+#, python-format
+msgid "(%d%% full, %d messages, %s.)"
+msgstr ""
+
+msgid "(Mailbox is empty.)"
+msgstr ""
+
+msgid "Account already exists, please choose another one."
+msgstr "Account bestaat al, kies a.u.b. een andere gebruikersnaam."
+
+msgid "Account does not exist."
+msgstr "Account bestaat niet."
+
+msgid "Account is disabled."
+msgstr "Account is uitgeschakeld"
+
+msgid "Account is global admin"
+msgstr "Geen globale beheerder"
+
+msgid "Activate account"
+msgstr "Actieve account"
+
+msgid "Activities"
+msgstr ""
+
+msgid "Add"
+msgstr "Toevoegen"
+
+msgid "Add account"
+msgstr "Maak een account aan"
+
+msgid "Add admin"
+msgstr "Admin toevoegen"
+
+msgid "Add domain"
+msgstr "Domein toevoegen"
+
+msgid "Add mail user"
+msgstr "Voeg een e-mail lijst toe"
+
+msgid "Add mail user under domain"
+msgstr "Voeg gebruiker toe onder domein: %s."
+
+msgid "Add one"
+msgstr "Voeg er een toe"
+
+msgid "Add one more?"
+msgstr "Nog een toevoegen?"
+
+msgid "Admin"
+msgstr "Beheerder"
+
+msgid "Admin Log"
+msgstr "Beheerders log"
+
+msgid "Admin created."
+msgstr "Beheerder aangemaakt."
+
+msgid "Admin login"
+msgstr "Beheerder login"
+
+msgid "Admins"
+msgstr "Beheerders"
+
+#, python-format
+msgid "Admins under domain: %s"
+msgstr "Gebruikers onder domein: %s"
+
+msgid "Alias domains:"
+msgstr ""
+
+msgid "All admins"
+msgstr "Alle beheerders"
+
+msgid "All domains"
+msgstr "Alle domeinen"
+
+msgid ""
+"All domains managed by this admin share the mailbox quota and limit of "
+"mail accounts."
+msgstr ""
+
+msgid "All domains under your control."
+msgstr "Alle domeinen in uw beheer."
+
+msgid "Allocated"
+msgstr "Toegewezen"
+
+msgid "Already reaches account limit (mail aliases)."
+msgstr ""
+
+msgid "Already reaches account limit (mail domains)."
+msgstr ""
+
+msgid "Already reaches account limit (mail users)."
+msgstr ""
+
+msgid "Already reaches account limit (mailbox quota)."
+msgstr ""
+
+msgid "Already reaches account limit (mailing lists)."
+msgstr ""
+
+msgid "Apply"
+msgstr "Toepassen"
+
+#, python-format
+msgid "At least %d characters."
+msgstr ""
+
+#, python-format
+msgid "At least %s characters."
+msgstr "Tenminste %s karakters."
+
+msgid "At least one digit number"
+msgstr ""
+
+msgid "At least one letter"
+msgstr ""
+
+msgid "At least one special character:"
+msgstr ""
+
+msgid "At least one uppercase letter"
+msgstr ""
+
+msgid "Available quota:"
+msgstr "Quota beschikbaar:"
+
+msgid "Backup"
+msgstr ""
+
+msgid "Backup MX"
+msgstr ""
+
+msgid "Choose Action"
+msgstr "Kies aktie"
+
+msgid "Company/Organization Name"
+msgstr "Bedrijf/organisatie"
+
+msgid "Confirm new password"
+msgstr "Bevestig nieuw wachtwoord"
+
+msgid "Contact webmaster"
+msgstr "Neem contact op met de beheerder"
+
+msgid "Content of disclaimer will be appended to outgoing emails."
+msgstr ""
+
+msgid "Current password is incorrect."
+msgstr "Huidige wachtwoord is onjuist"
+
+msgid "DISABLED"
+msgstr "UITGESCHAKELD"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Delete"
+msgstr "Verwijder"
+
+msgid "Delete account"
+msgstr "Verwijder account"
+
+msgid "Delete all in database"
+msgstr "Verwijder alle in database"
+
+msgid "Delete mailboxes"
+msgstr ""
+
+msgid "Delete selected log"
+msgstr ""
+
+msgid "Disable"
+msgstr "Uitschakelen"
+
+msgid "Disable account"
+msgstr "Schakel account uit"
+
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+msgid "Disabled accounts"
+msgstr "Schakel account uit"
+
+msgid "Disabled domains"
+msgstr "Wijzig domein profiel"
+
+msgid "Disclaimer"
+msgstr ""
+
+msgid "Display Name"
+msgstr "Weergave naam"
+
+msgid "Domain"
+msgstr "Domein"
+
+msgid "Domain Admins"
+msgstr "Domein beheerder"
+
+msgid "Domain Name"
+msgstr "Domeinnaam"
+
+msgid "Domain already exists. Please check both primary or alias domains."
+msgstr "Domein bestaat al. Controleer alstublieft primaire of alias domeinen."
+
+msgid "Domain created."
+msgstr "Domein aangemaakt."
+
+msgid "Domain is active, but marked as backup MX."
+msgstr ""
+
+msgid "Domain is active, but relay to other host"
+msgstr ""
+
+msgid "Domain is disabled."
+msgstr ""
+
+msgid "Domain name is empty."
+msgstr "Domeinnaam is leeg."
+
+msgid "Domain name or username is missed."
+msgstr "Domeinnaam of gebruikersnaam is niet aanwezig"
+
+msgid ""
+"Domain quota size exceeded. Please contact your administrator or service "
+"provider to increase it."
+msgstr ""
+"Domein quota overschreden. Neem alstublieft contact om met uw beheerder "
+"of provider om het te vergroten."
+
+msgid "Domains"
+msgstr "Domeinen"
+
+msgid "Domains and Accounts"
+msgstr "Domeinen en Accounts"
+
+msgid "Dump disclaimer automatically"
+msgstr ""
+
+msgid "Edit account profile"
+msgstr "Wijzig account profiel"
+
+msgid "Edit domain profile"
+msgstr "Wijzig domein profiel"
+
+msgid "Edit quota setting"
+msgstr "Wijzig quota instellingen"
+
+msgid "Email address was changed."
+msgstr "Een e-mail adres per lijn"
+
+msgid "Emails"
+msgstr "E-mails"
+
+msgid "Empty password is not allowed."
+msgstr "Leeg wachtwoord is niet toegestaan."
+
+msgid "Enable"
+msgstr "Inschakelen"
+
+msgid "Enable this account"
+msgstr "Activeer dit account"
+
+msgid "Enable this domain"
+msgstr "Activeer dit domein"
+
+msgid "Error"
+msgstr ""
+
+msgid "Error while checking new version of iRedAdmin:"
+msgstr ""
+
+msgid "Error:"
+msgstr "Error:"
+
+msgid "Events"
+msgstr "Evenementen"
+
+msgid "Everyone can send mail to this address"
+msgstr "Iedereen kan e-mails sturen naa dit adres"
+
+msgid ""
+"Exceeded domain account limit. Please contact your administrator or "
+"service provider to increase it."
+msgstr ""
+"Domein account limiet overschreden. Neem alstublieft contact op \"\n"
+"\"met de beheerder of de provider."
+
+msgid "Filter accounts by first character in email addresses"
+msgstr ""
+
+msgid "Filter domains by first character in mail domain name"
+msgstr ""
+
+msgid "Filter:"
+msgstr "Filter:"
+
+msgid "First Page"
+msgstr "Eerste pagina"
+
+msgid "First name"
+msgstr "Eerste pagina"
+
+msgid "Full name"
+msgstr "Volledige naam"
+
+msgid "General"
+msgstr "Algemeen"
+
+msgid "Global Admin"
+msgstr "Globale beheerder"
+
+msgid "Grant admin"
+msgstr "Aantal domeinen"
+
+msgid "Hostname"
+msgstr "Systeemnaam"
+
+msgid "IMAP Login:"
+msgstr ""
+
+msgid "IP Address"
+msgstr "IP adres"
+
+msgid "Invalid account."
+msgstr "Ongeldige aktie."
+
+msgid "Invalid action."
+msgstr "Ongeldige aktie."
+
+msgid "Invalid domain name."
+msgstr "Ongeldige domeinnaam."
+
+msgid "Invalid mail address."
+msgstr "Ongeldig e-mail adres"
+
+msgid "Is a global admin."
+msgstr "Is globale beheerder"
+
+msgid "Job Title"
+msgstr "Functiebenaming"
+
+#, python-format
+msgid "Keep mailbox for %d days"
+msgstr ""
+
+#, python-format
+msgid "Keep mailbox for %d months"
+msgstr ""
+
+#, python-format
+msgid "Keep mailbox for %d weeks"
+msgstr ""
+
+#, python-format
+msgid "Keep mailbox for %d years"
+msgstr ""
+
+msgid "Keep mailbox for 1 day"
+msgstr ""
+
+msgid "Keep mailbox for 1 month "
+msgstr ""
+
+msgid "Keep mailbox for 1 week"
+msgstr ""
+
+msgid "Keep mailbox for 1 year"
+msgstr ""
+
+msgid "Keep mailbox forever"
+msgstr ""
+
+msgid "Last Page"
+msgstr "Laatste pagina"
+
+msgid "Last name"
+msgstr "Systeemnaam"
+
+msgid "List all mail users."
+msgstr "Geef alle e-mail gebruikers weer"
+
+#, python-format
+msgid "Logged in as %s"
+msgstr "Ingelogd als %s"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Login from your IP address is not allowed."
+msgstr ""
+
+msgid "Login required"
+msgstr "Login nodig"
+
+msgid "Login to manage your mail domains & accounts"
+msgstr "Login om uw e-mail domeinen en gebruikers te beheren"
+
+msgid "Logout"
+msgstr "Uitloggen"
+
+msgid "Mail Address"
+msgstr "E-mail adres"
+
+msgid "Mail Users"
+msgstr "E-mail gebruikers"
+
+msgid "Mailbox Quota"
+msgstr "Mailbox quota"
+
+msgid "Make sure disclaimer work as expected:"
+msgstr ""
+
+msgid "Mark as global admin"
+msgstr "Markeer als globale beheerder"
+
+msgid "Mark this user as global admin"
+msgstr ""
+
+msgid "Member of mailing lists:"
+msgstr ""
+
+msgid "Members"
+msgstr "Leden"
+
+msgid "Members and moderators"
+msgstr ""
+
+msgid "Message"
+msgstr "Bericht"
+
+msgid "Mobile"
+msgstr "Mobiel"
+
+msgid "Moderators"
+msgstr "Beheerders"
+
+#, python-format
+msgid "Must be %s - %s characters."
+msgstr ""
+
+msgid "Need a strong password?"
+msgstr ""
+
+msgid "Network"
+msgstr "Netwerk"
+
+msgid "New Mail Delivered:"
+msgstr ""
+
+msgid "New password"
+msgstr "Nieuw wachtwoord"
+
+#, python-format
+msgid "New password must NOT contain more than %s characters."
+msgstr "Nieuw wachtwoord mag niet meer dan %s karakters bevatten."
+
+#, python-format
+msgid "New password must contain at least %s characters."
+msgstr "Nieuw wachtwoord moet minimaal %s karakters bevatten."
+
+msgid "New passwords are not match."
+msgstr "Nieuwe wachtwoorden komen niet overeen"
+
+#, python-format
+msgid ""
+"New version of iRedAdmin, %s, is now available for upgrading. <a "
+"href='https://docs.iredmail.org/migrate.or.upgrade.iredadmin.html' "
+"class='button green'>Upgrade tutorial</a>."
+msgstr ""
+
+msgid "Next Page"
+msgstr "Volgende pagina"
+
+msgid "No account selected."
+msgstr "Geen account geselecteerd"
+
+msgid "No admin log."
+msgstr "Beheerder login"
+
+msgid "No digit number in password."
+msgstr ""
+
+msgid "No domain under control."
+msgstr "Alle domeinen in uw beheer"
+
+msgid "No letter in password."
+msgstr ""
+
+msgid "No mail admin assigned."
+msgstr ""
+
+msgid "No mail domain available."
+msgstr "Geen e-mail domein beschikbaar."
+
+msgid "No mail user available."
+msgstr "Geen e-mail gebruiker beschikbaar."
+
+#, python-format
+msgid "No more than %d characters."
+msgstr ""
+
+#, python-format
+msgid "No more than %s characters."
+msgstr "Niet meer dan <strong>%s</strong> karakters."
+
+msgid "No special character in password."
+msgstr ""
+
+msgid "No uppercase letter in password."
+msgstr ""
+
+msgid "Not a global admin."
+msgstr "Geen globale beheerder"
+
+msgid "Not allowed to create mail user under this domain."
+msgstr "U kunt geen nieuwe e-mail gebruiker meer aanmaken onder dit domein."
+
+msgid "Note: Global admin can manage all mail domains."
+msgstr ""
+
+msgid "Number of domains"
+msgstr "Aantal domeinen"
+
+msgid "Number of users"
+msgstr "Aantal e-mail gebruikers"
+
+msgid "Old password"
+msgstr "Oud wachtwoord"
+
+msgid ""
+"One IP address or network per line. Invalid address or network will be "
+"discarded."
+msgstr ""
+
+msgid "One mail address per line. Invalid address will be discarded."
+msgstr ""
+
+msgid "Or create other mail accounts:"
+msgstr "Of maak een andere e-mail account aan:"
+
+msgid "POP3 Login:"
+msgstr ""
+
+msgid "Password"
+msgstr "Wachtwoord"
+
+msgid "Password is empty."
+msgstr "Wachtwoord is leeg"
+
+msgid "Password is too long."
+msgstr "Wachtwoord is te lang."
+
+msgid "Password is too short."
+msgstr "Wachtwoord is te kort."
+
+msgid "Password last change:"
+msgstr ""
+
+msgid "Password must contain"
+msgstr "Nieuw wachtwoord moet minimaal %s karakters bevatten."
+
+msgid "Permission denied."
+msgstr "Toestemming geweigerd."
+
+msgid "Plain text only"
+msgstr ""
+
+msgid "Please do not use non-ascii character in password."
+msgstr ""
+
+msgid "Please select at least one account."
+msgstr "Selecter tenminste een account"
+
+msgid "Please select at least one domain."
+msgstr "Selecter tenminste een account"
+
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+msgid "Preferred language"
+msgstr "Voorkeurs taal"
+
+msgid "Previous Page"
+msgstr "Vorige pagina"
+
+msgid "Profile has been updated."
+msgstr ""
+
+msgid "Profile of admin:"
+msgstr "Profiel van beheerder:"
+
+msgid "Profile of domain:"
+msgstr "Profiel van domein:"
+
+msgid "Profile of user:"
+msgstr "Profiel van gebruiker"
+
+msgid "Profile updated failed."
+msgstr "Aanpassen profiel mislukt."
+
+msgid "Quota"
+msgstr "Quota"
+
+msgid "Records were successfully updated."
+msgstr ""
+
+msgid "Relay"
+msgstr "Relay"
+
+msgid "Revoke admin privilege"
+msgstr "Profiel van beheerder:"
+
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+msgid ""
+"Security token did not match. Please refresh current page and re-perform "
+"form action."
+msgstr ""
+"Beveiligings teken komt niet overeen. Ververs de huidige pagina en voer "
+"de actie opnieuw uit."
+
+msgid "Selected accounts were deleted."
+msgstr "Geselecteerde accounts zijn verwijderd."
+
+msgid "Selected accounts were disabled."
+msgstr "Geselecteerde accounts zijn uitgeschakeld."
+
+msgid "Selected accounts were enabled."
+msgstr "Geselecteerde accounts zijn ingeschakeld."
+
+msgid "Selected accounts were marked as domain admin."
+msgstr "Geselecteerde accounts zijn ingeschakeld."
+
+msgid "Selected accounts were marked as global admin."
+msgstr "Geselecteerde accounts zijn ingeschakeld."
+
+msgid "Selected accounts were unmarked as domain admin."
+msgstr "Geselecteerde accounts zijn ingeschakeld."
+
+msgid "Selected accounts were unmarked as global admin."
+msgstr "Geselecteerde accounts zijn ingeschakeld."
+
+msgid "Selected domains have been deleted."
+msgstr ""
+
+msgid "Selected domains were disabled."
+msgstr "Geselecteerde domeinen zijn uitgeschakeld."
+
+msgid "Selected domains were enabled."
+msgstr "Geselecteerde domeinen zijn ingeschakeld."
+
+msgid "Selected log records were deleted."
+msgstr "Geselecteerde log items zijn verwijderd."
+
+msgid "Server Load"
+msgstr "Server belasting"
+
+msgid ""
+"Server-side size limit exceeded. Please increase \"sizelimit\" in your "
+"LDAP server."
+msgstr ""
+"Server grootte limiet overschreden. Vergroot alstublieft de grootte "
+"limiet in uw LDAP server"
+
+msgid "Session expired, please re-login."
+msgstr "Sessie verlopen, log alstublieft opnieuw in."
+
+msgid "Set to 0 for unlimited."
+msgstr "Voer 0 in voor ongelimiteerd"
+
+#, python-format
+msgid "Some addresses have been discarded because they have been used: %s."
+msgstr ""
+
+msgid "Standalone admin account cannot be an user of local domain."
+msgstr ""
+
+msgid "Store password in plain text"
+msgstr "Sla het wachtwoord ongecodeerd op"
+
+msgid "Stored"
+msgstr "Opgeslagen"
+
+msgid "Stored emails"
+msgstr "Opgeslagen e-mails"
+
+msgid "Submit"
+msgstr "Verzend"
+
+msgid "Submited domain name is incorrect."
+msgstr "Ingevoerde domeinnaam is niet juist."
+
+msgid "Support"
+msgstr "Ondersteuning"
+
+msgid "System Information"
+msgstr "Systeem informatie"
+
+msgid "Telephone Number"
+msgstr "Telefoonnummer"
+
+msgid "Time"
+msgstr "Tijd"
+
+msgid "Time zone"
+msgstr ""
+
+msgid "Unban IP address"
+msgstr ""
+
+msgid "Unlimited"
+msgstr "Ongelimiteerd"
+
+msgid "Unmark as global admin"
+msgstr "Markeer als globale beheerder"
+
+msgid "Unrestricted"
+msgstr "Onbeperkt"
+
+msgid "Update whitelists and blacklists"
+msgstr "Voeg nieuwe whitelist toe"
+
+msgid "Uptime"
+msgstr "Draaitijd"
+
+msgid "Use this password"
+msgstr ""
+
+msgid "Used"
+msgstr "Gebruikt"
+
+msgid "User"
+msgstr "Gebruiker"
+
+msgid "User created."
+msgstr "Gebruiker aangemaakt."
+
+msgid "User login (self-service)"
+msgstr ""
+
+msgid "User/Employee ID"
+msgstr "Gebruikers/Werknemers ID"
+
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+msgid "Username must be an valid email address."
+msgstr "Gebruikersnaam moet een geldig e-mailadres zijn."
+
+msgid "Username or password is incorrect."
+msgstr "Gebruikersnaam of wachtwoord is onjuist."
+
+msgid "Users"
+msgstr "Gebruikers"
+
+#, python-format
+msgid "Users under domain: %s"
+msgstr "Gebruikers onder domein: %s"
+
+msgid "Users under same domain"
+msgstr ""
+
+msgid "Users under same domain and its sub-domains"
+msgstr ""
+
+msgid "Who can send email to this list"
+msgstr "Wie kunnen er e-mails verzenden naar deze lijst"
+
+msgid "You are not allowed to update global domain admin's profile."
+msgstr ""
+
+msgid "without verifying local recipients"
+msgstr ""
+

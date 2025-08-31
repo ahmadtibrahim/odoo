@@ -1,0 +1,135 @@
+{% extends "layout.html" %}
+
+{% from "macros/form_inputs.html" import
+    input_submit,
+    input_csrf_token,
+    input_text
+    with context
+    %}
+
+{% from "macros/general.html" import
+        display_subnav,
+        set_account_status_img,
+        display_domain_cn,
+        display_preferred_language,
+        display_timezones,
+        display_account_status,
+        with context
+        %}
+
+{% from "macros/ldap.html" import
+        display_enabled_services
+        with context
+        %}
+
+{% from "macros/msg_handlers.html" import domain_msg_handler with context %}
+
+{% block title %}{{ _('Edit account profile') }}{% endblock %}
+{% block navlinks_domains %}class="active"{% endblock %}
+
+{% set entries = profile %}
+{% set domainName = entries.get('domainName')[0] %}
+{% set cn = entries.get('cn', [''])[0] %}
+{% set accountStatus = entries.get('accountStatus', ['disabled'])[0] |lower %}
+
+{# Get per-domain account settings #}
+{% set accountSetting = domain_account_settings %}
+
+{% if profile_type == 'general' %}
+    {% set disclaimer_text = entries.get('disclaimer', [''])[0] %}
+{% elif profile_type == 'advanced' %}
+    {# Default language for new user #}
+    {% set defaultLanguage = accountSetting.get('defaultLanguage') %}
+{% endif %}
+
+{% block breadcrumb %}
+    {% set crumbs = [
+            (ctx.homepath + '/domains', _('All domains')),
+            ('active', ctx.homepath + '/profile/domain/general/' + cur_domain, _('Profile of domain:') + '&nbsp;' + cur_domain),
+            (ctx.homepath + '/users/' + cur_domain, _('Users')),
+            ]
+            %}
+    {{ display_subnav(crumbs) }}
+{% endblock %}
+
+
+{# Domain profile. #}
+{% block main %}
+
+{# Show system message #}
+{{ domain_msg_handler(msg) }}
+
+{# Set profile tabs #}
+{% set navlinks = [
+        ('general', _('General'), [true,]),
+    ]
+%}
+
+<div class="content-box">
+    <div class="box-body">
+        <div class="box-header clear">
+            <ul class="tabs clear">
+                {% for nav in navlinks %}
+                    {% if not false in nav[2] and not none in nav[2] %}
+                        <li {% if profile_type == nav[0] %}class="active"{% endif %}><a href="{{ctx.homepath}}/profile/domain/{{nav[0]}}/{{cur_domain}}">{{ nav[1] }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <h2>{{ _('Profile of domain:') }} {{ cur_domain }}</h2>
+        </div>
+
+        <div class="box-wrap clear">
+            {% if profile_type == 'spampolicy' %}
+                {% set form_post_url = ctx.homepath + '/system/' + profile_type + '/' + cur_domain %}
+            {% else %}
+                {% set form_post_url = ctx.homepath + '/profile/domain/' + profile_type + '/' + cur_domain %}
+            {% endif %}
+
+            <form name="{{profile_type}}" method="post" action="{{ form_post_url }}">
+                {{ input_csrf_token() }}
+
+                <input type="hidden" name="domainName" value="{{cur_domain}}" />
+
+                {% if profile_type == 'general' %}
+                    <div class="columns clear">
+                        <div class="col2-3 ">
+                            {{ display_account_status(accountStatus, account_type='domain') }}
+                            {{ display_domain_cn(cn=cn) }}
+                        </div>{# .col2-3 #}
+                    </div><!-- .columns -->
+
+                    {#-- Disclaimer --#}
+                    <div class="columns clear">
+                        <div class="col2-3 ">
+                            <div class="form-field clear">
+                                <h4 class="size-250 fl-space">{{ _('Disclaimer') }}</h4>
+                                <span class="clean-padding bt-space20">
+                                    <small>{{ _('Plain text only')}}</small>
+                                    <textarea name="disclaimer" rows="6" style="width: 50%">{{ disclaimer_text }}</textarea>
+                                </span>
+                            </div>
+                        </div>{#-- col2-3 --#}
+
+                        <div class="col1-3 lastcol">
+                            <div class="mark_blue bt-space10">
+                                <ul class="standard clean-padding bt-space10">
+                                    <li class="bt-space5">{{ _('Content of disclaimer will be appended to outgoing emails.') }}</li>
+                                </ul>
+
+                                {% if session.get('is_global_admin') %}
+                                    <h4>{{ _('Make sure disclaimer work as expected:') }}</h4>
+                                    <ul class="standard clean-padding bt-space10">
+                                        <li class="bt-space5"><a href="https://forum.iredmail.org/topic437.html" target="_blank" rel="noopener">{{ _('Dump disclaimer automatically') }}</a></li>
+                                    </ul>
+                                {% endif %}
+                            </div>
+                        </div>{# .col1-3 #}
+                    </div>{# .columns #}
+                {% endif %}
+
+                {{ input_submit() }}
+            </form>
+        </div>{# .box-wrap #}
+    </div>{# .box-body #}
+</div>{# .content-box #}
+{% endblock main %}
