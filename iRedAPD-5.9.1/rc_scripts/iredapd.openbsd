@@ -1,0 +1,8 @@
+#!/bin/ksh
+
+daemon='python3 /opt/iredapd/iredapd.py'
+
+. /etc/rc.d/rc.subr
+
+rc_reload=NO
+rc_cmd $1
